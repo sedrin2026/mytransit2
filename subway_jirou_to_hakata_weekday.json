@@ -1,0 +1,1595 @@
+[
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "05:16",
+    "arrival": "05:17",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "05:31",
+    "arrival": "05:32",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "05:41",
+    "arrival": "05:42",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "05:51",
+    "arrival": "05:52",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:01",
+    "arrival": "06:02",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:11",
+    "arrival": "06:12",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:19",
+    "arrival": "06:20",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:26",
+    "arrival": "06:27",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:33",
+    "arrival": "06:34",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:40",
+    "arrival": "06:41",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:47",
+    "arrival": "06:48",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:52",
+    "arrival": "06:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "06:58",
+    "arrival": "06:59",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:04",
+    "arrival": "07:05",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:09",
+    "arrival": "07:10",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:14",
+    "arrival": "07:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:18",
+    "arrival": "07:19",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:22",
+    "arrival": "07:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:27",
+    "arrival": "07:28",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:31",
+    "arrival": "07:32",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:35",
+    "arrival": "07:36",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:38",
+    "arrival": "07:39",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:42",
+    "arrival": "07:43",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:45",
+    "arrival": "07:46",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:48",
+    "arrival": "07:49",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:51",
+    "arrival": "07:52",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:54",
+    "arrival": "07:55",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "07:57",
+    "arrival": "07:58",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:00",
+    "arrival": "08:01",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:03",
+    "arrival": "08:04",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:06",
+    "arrival": "08:07",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:09",
+    "arrival": "08:10",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:12",
+    "arrival": "08:13",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:17",
+    "arrival": "08:18",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:21",
+    "arrival": "08:22",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:26",
+    "arrival": "08:27",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:30",
+    "arrival": "08:31",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:34",
+    "arrival": "08:35",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:38",
+    "arrival": "08:39",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:42",
+    "arrival": "08:43",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:45",
+    "arrival": "08:46",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:49",
+    "arrival": "08:50",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:54",
+    "arrival": "08:55",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "08:58",
+    "arrival": "08:59",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:03",
+    "arrival": "09:04",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:07",
+    "arrival": "09:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:11",
+    "arrival": "09:12",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:16",
+    "arrival": "09:17",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:21",
+    "arrival": "09:22",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:26",
+    "arrival": "09:27",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:31",
+    "arrival": "09:32",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:38",
+    "arrival": "09:39",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:46",
+    "arrival": "09:47",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "09:53",
+    "arrival": "09:54",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:01",
+    "arrival": "10:02",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:08",
+    "arrival": "10:09",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:15",
+    "arrival": "10:16",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:22",
+    "arrival": "10:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:29",
+    "arrival": "10:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:37",
+    "arrival": "10:38",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:45",
+    "arrival": "10:46",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "10:53",
+    "arrival": "10:54",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:00",
+    "arrival": "11:01",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:07",
+    "arrival": "11:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:14",
+    "arrival": "11:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:22",
+    "arrival": "11:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:29",
+    "arrival": "11:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:36",
+    "arrival": "11:37",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:44",
+    "arrival": "11:45",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:52",
+    "arrival": "11:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "11:59",
+    "arrival": "12:00",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:07",
+    "arrival": "12:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:14",
+    "arrival": "12:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:22",
+    "arrival": "12:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:29",
+    "arrival": "12:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:37",
+    "arrival": "12:38",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:44",
+    "arrival": "12:45",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:52",
+    "arrival": "12:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "12:59",
+    "arrival": "13:00",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:07",
+    "arrival": "13:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:14",
+    "arrival": "13:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:22",
+    "arrival": "13:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:29",
+    "arrival": "13:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:36",
+    "arrival": "13:37",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:44",
+    "arrival": "13:45",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:52",
+    "arrival": "13:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "13:59",
+    "arrival": "14:00",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:07",
+    "arrival": "14:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:14",
+    "arrival": "14:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:22",
+    "arrival": "14:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:29",
+    "arrival": "14:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:36",
+    "arrival": "14:37",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:44",
+    "arrival": "14:45",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:52",
+    "arrival": "14:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "14:59",
+    "arrival": "15:00",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:07",
+    "arrival": "15:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:14",
+    "arrival": "15:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:22",
+    "arrival": "15:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:29",
+    "arrival": "15:30",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:36",
+    "arrival": "15:37",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:44",
+    "arrival": "15:45",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:52",
+    "arrival": "15:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "15:59",
+    "arrival": "16:00",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:02",
+    "arrival": "16:03",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:07",
+    "arrival": "16:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:12",
+    "arrival": "16:13",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:17",
+    "arrival": "16:18",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:22",
+    "arrival": "16:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:27",
+    "arrival": "16:28",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:32",
+    "arrival": "16:33",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:37",
+    "arrival": "16:38",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:42",
+    "arrival": "16:43",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:47",
+    "arrival": "16:48",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:52",
+    "arrival": "16:53",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "16:57",
+    "arrival": "16:58",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:02",
+    "arrival": "17:03",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:07",
+    "arrival": "17:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:12",
+    "arrival": "17:13",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:17",
+    "arrival": "17:18",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:22",
+    "arrival": "17:23",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:26",
+    "arrival": "17:27",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:30",
+    "arrival": "17:31",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:34",
+    "arrival": "17:35",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:38",
+    "arrival": "17:39",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:42",
+    "arrival": "17:43",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:46",
+    "arrival": "17:47",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:50",
+    "arrival": "17:51",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:54",
+    "arrival": "17:55",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "17:58",
+    "arrival": "17:59",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:02",
+    "arrival": "18:03",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:06",
+    "arrival": "18:07",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:10",
+    "arrival": "18:11",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:14",
+    "arrival": "18:15",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:19",
+    "arrival": "18:20",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:23",
+    "arrival": "18:24",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:28",
+    "arrival": "18:29",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:32",
+    "arrival": "18:33",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:37",
+    "arrival": "18:38",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:41",
+    "arrival": "18:42",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:46",
+    "arrival": "18:47",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:51",
+    "arrival": "18:52",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "18:56",
+    "arrival": "18:57",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:01",
+    "arrival": "19:02",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:06",
+    "arrival": "19:07",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:12",
+    "arrival": "19:13",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:18",
+    "arrival": "19:19",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:24",
+    "arrival": "19:25",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:30",
+    "arrival": "19:31",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:36",
+    "arrival": "19:37",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:42",
+    "arrival": "19:43",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:49",
+    "arrival": "19:50",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "19:56",
+    "arrival": "19:57",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:03",
+    "arrival": "20:04",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:10",
+    "arrival": "20:11",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:18",
+    "arrival": "20:19",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:25",
+    "arrival": "20:26",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:33",
+    "arrival": "20:34",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:40",
+    "arrival": "20:41",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:48",
+    "arrival": "20:49",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "20:55",
+    "arrival": "20:56",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:03",
+    "arrival": "21:04",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:12",
+    "arrival": "21:13",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:21",
+    "arrival": "21:22",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:31",
+    "arrival": "21:32",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:41",
+    "arrival": "21:42",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "21:51",
+    "arrival": "21:52",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:01",
+    "arrival": "22:02",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:11",
+    "arrival": "22:12",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:21",
+    "arrival": "22:22",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:31",
+    "arrival": "22:32",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:43",
+    "arrival": "22:44",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "22:55",
+    "arrival": "22:56",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "23:07",
+    "arrival": "23:08",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "23:19",
+    "arrival": "23:20",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "23:34",
+    "arrival": "23:35",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "23:48",
+    "arrival": "23:49",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  },
+  {
+    "route": "地下鉄",
+    "type": "平日",
+    "departure": "24:04",
+    "arrival": "24:05",
+    "from": "次郎丸駅",
+    "to": "博多方面",
+    "destination": "博多方面"
+  }
+]
