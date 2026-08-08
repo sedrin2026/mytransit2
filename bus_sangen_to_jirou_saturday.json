@@ -1,78 +1,821 @@
 [
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "05:24", "arrival": "05:30", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "05:54", "arrival": "06:00", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "05:50", "arrival": "05:56", "destination": "国体道路特快・博多駅" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "06:24", "arrival": "06:30", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "06:54", "arrival": "07:00", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "06:10", "arrival": "06:16", "destination": "国体道路特快・博多駅" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "07:25", "arrival": "07:31", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "07:45", "arrival": "07:51", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "07:51", "arrival": "07:57", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "07:06", "arrival": "07:12", "destination": "原・六本松・博多" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "07:43", "arrival": "07:49", "destination": "原・六本松・博多" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "07:26", "arrival": "07:32", "destination": "国体道路特快・博多駅" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "07:00", "arrival": "07:06", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "07:15", "arrival": "07:21", "destination": "九州医療センター橋・次郎丸・博多駅（都市高速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "08:25", "arrival": "08:31", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "08:19", "arrival": "08:25", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "08:51", "arrival": "08:57", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "08:23", "arrival": "08:29", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "08:06", "arrival": "08:12", "destination": "国体道路特快・博多駅" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "08:41", "arrival": "08:47", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "08:35", "arrival": "08:41", "destination": "九州医療センター橋・次郎丸・博多駅（都市高速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "09:35", "arrival": "09:41", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "09:25", "arrival": "09:31", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "09:05", "arrival": "09:11", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "09:43", "arrival": "09:49", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "09:11", "arrival": "09:17", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "09:41", "arrival": "09:47", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "09:55", "arrival": "10:01", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "10:15", "arrival": "10:21", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "10:55", "arrival": "11:01", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "10:58", "arrival": "11:04", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "10:11", "arrival": "10:17", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "10:41", "arrival": "10:47", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "11:21", "arrival": "11:27", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "11:51", "arrival": "11:57", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "12:15", "arrival": "12:21", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "12:05", "arrival": "12:11", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "12:43", "arrival": "12:49", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "12:31", "arrival": "12:37", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "12:33", "arrival": "12:39", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "13:25", "arrival": "13:31", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "13:05", "arrival": "13:11", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "13:18", "arrival": "13:24", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "13:11", "arrival": "13:17", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "13:51", "arrival": "13:57", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "13:43", "arrival": "13:49", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "14:25", "arrival": "14:31", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "14:28", "arrival": "14:34", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "14:11", "arrival": "14:17", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "14:56", "arrival": "15:02", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "14:48", "arrival": "14:54", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "15:45", "arrival": "15:51", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "15:05", "arrival": "15:11", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "15:37", "arrival": "15:43", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "15:31", "arrival": "15:37", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "16:31", "arrival": "16:37", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "16:52", "arrival": "16:58", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "16:21", "arrival": "16:27", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "16:04", "arrival": "16:10", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "17:55", "arrival": "18:01", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "17:12", "arrival": "17:18", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "17:21", "arrival": "17:27", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "17:04", "arrival": "17:10", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "18:25", "arrival": "18:31", "destination": "藤崎・西新・昭和通" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "18:45", "arrival": "18:51", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "19", "departure": "18:12", "arrival": "18:18", "destination": "原・六本松・博多駅（快速）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "18:21", "arrival": "18:27", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "18:56", "arrival": "19:02", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "19:05", "arrival": "19:11", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "19:45", "arrival": "19:51", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "19:36", "arrival": "19:42", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "19:26", "arrival": "19:32", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "306", "departure": "19:56", "arrival": "20:02", "destination": "シーサイドももち・都市高速" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "2", "departure": "20:14", "arrival": "20:20", "destination": "藤崎（普通）" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "20:11", "arrival": "20:17", "destination": "六本松・国体道路" },
-  { "from": "三軒屋", "to": "次郎丸駅前", "route": "201", "departure": "21:30", "arrival": "21:36", "destination": "六本松・国体道路" }
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "05:24",
+    "arrival": "05:30",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "05:50",
+    "arrival": "05:56",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "05:54",
+    "arrival": "06:00",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "06:10",
+    "arrival": "06:16",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "06:24",
+    "arrival": "06:30",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "06:26",
+    "arrival": "06:32",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "06:54",
+    "arrival": "07:00",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "07:00",
+    "arrival": "07:06",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "07:06",
+    "arrival": "07:12",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "07:15",
+    "arrival": "07:21",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "07:25",
+    "arrival": "07:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "07:26",
+    "arrival": "07:32",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "07:43",
+    "arrival": "07:49",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "07:45",
+    "arrival": "07:51",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "07:51",
+    "arrival": "07:57",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "08:06",
+    "arrival": "08:12",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "08:19",
+    "arrival": "08:25",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "08:23",
+    "arrival": "08:29",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "08:25",
+    "arrival": "08:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "08:35",
+    "arrival": "08:41",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "08:41",
+    "arrival": "08:47",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "08:51",
+    "arrival": "08:57",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:03",
+    "arrival": "09:09",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "09:05",
+    "arrival": "09:11",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "09:11",
+    "arrival": "09:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "09:25",
+    "arrival": "09:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "09:35",
+    "arrival": "09:41",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "09:41",
+    "arrival": "09:47",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:43",
+    "arrival": "09:49",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "09:55",
+    "arrival": "10:01",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "10:11",
+    "arrival": "10:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "10:15",
+    "arrival": "10:21",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "10:23",
+    "arrival": "10:29",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "10:41",
+    "arrival": "10:47",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "10:55",
+    "arrival": "11:01",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "10:58",
+    "arrival": "11:04",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:11",
+    "arrival": "11:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "11:21",
+    "arrival": "11:27",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "11:33",
+    "arrival": "11:39",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:51",
+    "arrival": "11:57",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "11:55",
+    "arrival": "12:01",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "12:05",
+    "arrival": "12:11",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "12:08",
+    "arrival": "12:14",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "12:15",
+    "arrival": "12:21",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "12:31",
+    "arrival": "12:37",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "12:33",
+    "arrival": "12:39",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "12:43",
+    "arrival": "12:49",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "13:05",
+    "arrival": "13:11",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "13:11",
+    "arrival": "13:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "13:18",
+    "arrival": "13:24",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "13:25",
+    "arrival": "13:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "13:43",
+    "arrival": "13:49",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "13:51",
+    "arrival": "13:57",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "13:53",
+    "arrival": "13:59",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "14:11",
+    "arrival": "14:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "14:25",
+    "arrival": "14:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "14:28",
+    "arrival": "14:34",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "14:48",
+    "arrival": "14:54",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "14:56",
+    "arrival": "15:02",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:03",
+    "arrival": "15:09",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "15:05",
+    "arrival": "15:11",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "15:15",
+    "arrival": "15:21",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "15:31",
+    "arrival": "15:37",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:37",
+    "arrival": "15:43",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "15:45",
+    "arrival": "15:51",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "16:04",
+    "arrival": "16:10",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "16:12",
+    "arrival": "16:18",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "16:21",
+    "arrival": "16:27",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "16:31",
+    "arrival": "16:37",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "16:52",
+    "arrival": "16:58",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "17:04",
+    "arrival": "17:10",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "17:21",
+    "arrival": "17:27",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "17:25",
+    "arrival": "17:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "17:27",
+    "arrival": "17:33",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "17:55",
+    "arrival": "18:01",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:12",
+    "arrival": "18:18",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "18:21",
+    "arrival": "18:27",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "18:25",
+    "arrival": "18:31",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "18:45",
+    "arrival": "18:51",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:55",
+    "arrival": "19:01",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "18:56",
+    "arrival": "19:02",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:05",
+    "arrival": "19:11",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "19:26",
+    "arrival": "19:32",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "19:36",
+    "arrival": "19:42",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:45",
+    "arrival": "19:51",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "306",
+    "type": "都市高",
+    "departure": "19:56",
+    "arrival": "20:02",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "20:00",
+    "arrival": "20:06",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "20:11",
+    "arrival": "20:17",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "21:14",
+    "arrival": "21:20",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "21:27",
+    "arrival": "21:33",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "21:30",
+    "arrival": "21:36",
+    "from": "三軒屋",
+    "to": "次郎丸駅前",
+    "destination": "次郎丸駅前"
+  }
 ]
