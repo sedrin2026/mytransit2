@@ -1,0 +1,1361 @@
+[
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "05:57",
+    "arrival": "05:58",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "06:17",
+    "arrival": "06:18",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "06:32",
+    "arrival": "06:33",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "06:42",
+    "arrival": "06:43",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "06:52",
+    "arrival": "06:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:02",
+    "arrival": "07:03",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:12",
+    "arrival": "07:13",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:22",
+    "arrival": "07:23",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:32",
+    "arrival": "07:33",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:42",
+    "arrival": "07:43",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "07:52",
+    "arrival": "07:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:02",
+    "arrival": "08:03",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:12",
+    "arrival": "08:13",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:20",
+    "arrival": "08:21",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:27",
+    "arrival": "08:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:34",
+    "arrival": "08:35",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:39",
+    "arrival": "08:40",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:44",
+    "arrival": "08:45",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:49",
+    "arrival": "08:50",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:54",
+    "arrival": "08:55",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "08:59",
+    "arrival": "09:00",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:04",
+    "arrival": "09:05",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:09",
+    "arrival": "09:10",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:14",
+    "arrival": "09:15",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:19",
+    "arrival": "09:20",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:24",
+    "arrival": "09:25",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:29",
+    "arrival": "09:30",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:34",
+    "arrival": "09:35",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:41",
+    "arrival": "09:42",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:48",
+    "arrival": "09:49",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "09:55",
+    "arrival": "09:56",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:02",
+    "arrival": "10:03",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:09",
+    "arrival": "10:10",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:16",
+    "arrival": "10:17",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:23",
+    "arrival": "10:24",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:30",
+    "arrival": "10:31",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:37",
+    "arrival": "10:38",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:44",
+    "arrival": "10:45",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:51",
+    "arrival": "10:52",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "10:58",
+    "arrival": "10:59",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:05",
+    "arrival": "11:06",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:12",
+    "arrival": "11:13",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:19",
+    "arrival": "11:20",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:26",
+    "arrival": "11:27",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:33",
+    "arrival": "11:34",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:40",
+    "arrival": "11:41",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:47",
+    "arrival": "11:48",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "11:54",
+    "arrival": "11:55",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:01",
+    "arrival": "12:02",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:08",
+    "arrival": "12:09",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:15",
+    "arrival": "12:16",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:22",
+    "arrival": "12:23",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:29",
+    "arrival": "12:30",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:36",
+    "arrival": "12:37",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:43",
+    "arrival": "12:44",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:50",
+    "arrival": "12:51",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "12:57",
+    "arrival": "12:58",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:04",
+    "arrival": "13:05",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:11",
+    "arrival": "13:12",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:18",
+    "arrival": "13:19",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:25",
+    "arrival": "13:26",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:32",
+    "arrival": "13:33",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:39",
+    "arrival": "13:40",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:46",
+    "arrival": "13:47",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "13:53",
+    "arrival": "13:54",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:00",
+    "arrival": "14:01",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:07",
+    "arrival": "14:08",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:14",
+    "arrival": "14:15",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:21",
+    "arrival": "14:22",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:28",
+    "arrival": "14:29",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:35",
+    "arrival": "14:36",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:42",
+    "arrival": "14:43",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:49",
+    "arrival": "14:50",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "14:56",
+    "arrival": "14:57",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:03",
+    "arrival": "15:04",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:10",
+    "arrival": "15:11",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:17",
+    "arrival": "15:18",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:24",
+    "arrival": "15:25",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:31",
+    "arrival": "15:32",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:38",
+    "arrival": "15:39",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:45",
+    "arrival": "15:46",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:52",
+    "arrival": "15:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "15:59",
+    "arrival": "16:00",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:06",
+    "arrival": "16:07",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:13",
+    "arrival": "16:14",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:20",
+    "arrival": "16:21",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:27",
+    "arrival": "16:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:34",
+    "arrival": "16:35",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:41",
+    "arrival": "16:42",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:48",
+    "arrival": "16:49",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "16:55",
+    "arrival": "16:56",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:02",
+    "arrival": "17:03",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:09",
+    "arrival": "17:10",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:16",
+    "arrival": "17:17",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:23",
+    "arrival": "17:24",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:30",
+    "arrival": "17:31",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:37",
+    "arrival": "17:38",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:44",
+    "arrival": "17:45",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:51",
+    "arrival": "17:52",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "17:58",
+    "arrival": "17:59",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:04",
+    "arrival": "18:05",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:10",
+    "arrival": "18:11",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:16",
+    "arrival": "18:17",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:22",
+    "arrival": "18:23",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:28",
+    "arrival": "18:29",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:34",
+    "arrival": "18:35",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:40",
+    "arrival": "18:41",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:46",
+    "arrival": "18:47",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:52",
+    "arrival": "18:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "18:58",
+    "arrival": "18:59",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:04",
+    "arrival": "19:05",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:10",
+    "arrival": "19:11",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:16",
+    "arrival": "19:17",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:22",
+    "arrival": "19:23",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:28",
+    "arrival": "19:29",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:34",
+    "arrival": "19:35",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:40",
+    "arrival": "19:41",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:46",
+    "arrival": "19:47",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "19:52",
+    "arrival": "19:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:00",
+    "arrival": "20:01",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:07",
+    "arrival": "20:08",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:15",
+    "arrival": "20:16",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:22",
+    "arrival": "20:23",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:30",
+    "arrival": "20:31",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:37",
+    "arrival": "20:38",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:44",
+    "arrival": "20:45",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:52",
+    "arrival": "20:53",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "20:59",
+    "arrival": "21:00",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:06",
+    "arrival": "21:07",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:13",
+    "arrival": "21:14",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:20",
+    "arrival": "21:21",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:27",
+    "arrival": "21:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:37",
+    "arrival": "21:38",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:47",
+    "arrival": "21:48",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "21:57",
+    "arrival": "21:58",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:07",
+    "arrival": "22:08",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:17",
+    "arrival": "22:18",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:27",
+    "arrival": "22:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:37",
+    "arrival": "22:38",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:47",
+    "arrival": "22:48",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "22:57",
+    "arrival": "22:58",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "23:07",
+    "arrival": "23:08",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "23:17",
+    "arrival": "23:18",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "23:27",
+    "arrival": "23:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "23:39",
+    "arrival": "23:40",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "23:51",
+    "arrival": "23:52",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "24:03",
+    "arrival": "24:04",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "24:16",
+    "arrival": "24:17",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "24:27",
+    "arrival": "24:28",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "24:40",
+    "arrival": "24:41",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  },
+  {
+    "route": "地下鉄",
+    "type": "土日祝",
+    "departure": "24:57",
+    "arrival": "24:58",
+    "from": "次郎丸駅",
+    "to": "橋本駅",
+    "destination": "橋本駅"
+  }
+]
