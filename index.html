@@ -72,17 +72,19 @@
         .btn-bus { background-color: #ffb143; color: #fff; }
         .btn-subway { background-color: #68b388; color: #fff; }
 
-        /* 展開用パネル共通 */
+        /* 展開用パネル共通（①文字はみ出し対策：flex-wrap対応、フォント微調整） */
         .expand-panel {
             background-color: #ffffff;
             color: #333;
-            padding: 8px 12px;
+            padding: 10px 12px;
             border-radius: 10px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             display: none;
             align-items: center;
             justify-content: space-around;
-            font-size: 0.85rem;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 0.8rem;
             font-weight: bold;
         }
 
@@ -98,7 +100,7 @@
             white-space: nowrap;
         }
 
-        /* 連動バナー枠（閉じるボタン付き） */
+        /* 連動バナー枠（②文字位置を真ん中で統一、閉じるボタンとのレイアウト調整） */
         .result-banner {
             background-color: #ffffff;
             color: #d35400;
@@ -109,7 +111,8 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             display: none;
             align-items: center;
-            justify-content: space-between;
+            position: relative;
+            justify-content: center;
         }
 
         .result-banner.active { display: flex; }
@@ -117,6 +120,8 @@
         #subwayResultBanner { border: 2px solid #68b388; }
 
         .close-btn {
+            position: absolute;
+            right: 12px;
             background: none;
             border: none;
             font-size: 1.1rem;
@@ -183,7 +188,7 @@
         .map-title { font-size: 0.85rem; font-weight: bold; text-align: center; color: #333; }
         .map-img { width: 100%; height: auto; border-radius: 8px; display: block; }
 
-        /* 検索結果（5件の候補カード）エリア */
+        /* 検索結果（5件候補表示エリア） */
         .candidates-section {
             display: none;
             flex-direction: column;
@@ -215,7 +220,6 @@
             border-radius: 6px;
         }
 
-        /* 順位ごとのバッジ背景色 */
         .rank-0 { background-color: #ffeded; color: #e74c3c; }
         .rank-1 { background-color: #edfaf1; color: #2ecc71; }
         .rank-2 { background-color: #edf5ff; color: #3498db; }
@@ -308,13 +312,13 @@
     <!-- 地下鉄パネル -->
     <div class="expand-panel" id="subwayPanel">
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_hashimoto_to_jirou" onchange="loadTimetable(this)"> 橋本 → 次郎丸
+            <input type="radio" name="transitSelect" value="subway_hashimoto_to_jirou" onchange="loadTimetable(this)"> 橋本駅 → 次郎丸駅
         </label>
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_jirou_to_hashimoto" onchange="loadTimetable(this)"> 次郎丸 → 橋本
+            <input type="radio" name="transitSelect" value="subway_jirou_to_hashimoto" onchange="loadTimetable(this)"> 次郎丸駅 → 橋本駅
         </label>
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_jirou_to_hakata" onchange="loadTimetable(this)"> 次郎丸 → 博多
+            <input type="radio" name="transitSelect" value="subway_jirou_to_hakata" onchange="loadTimetable(this)"> 次郎丸駅 → 博多駅
         </label>
     </div>
     <div class="result-banner" id="subwayResultBanner">
@@ -345,7 +349,7 @@
         </div>
     </div>
 
-    <!-- 路線図エリア（待機時表示） -->
+    <!-- 路線図エリア -->
     <div class="map-section" id="mapSection">
         <a href="bus-map.png" target="_blank" class="map-card bus">
             <div class="map-title">🚌 西鉄バス路線図</div>
@@ -357,7 +361,7 @@
         </a>
     </div>
 
-    <!-- 検索結果（5件候補表示エリア） -->
+    <!-- 検索結果エリア -->
     <div class="candidates-section" id="candidatesSection"></div>
 </div>
 
@@ -407,24 +411,29 @@
         const value = radio.value;
         const isBus = value.startsWith('bus');
         
-        // バナー表示切り替え
         document.getElementById('busResultBanner').classList.toggle('active', isBus);
         document.getElementById('subwayResultBanner').classList.toggle('active', !isBus);
         
-        const labelText = radio.parentElement.textContent.trim();
+        // 地下鉄の場合は名前に「駅」を付与して中央表示する
+        let labelText = radio.parentElement.textContent.trim();
+        if (!isBus) {
+            // 例: 「橋本 → 次郎丸」 → 「橋本駅 → 次郎丸駅」に整形
+            if (value === 'subway_hashimoto_to_jirou') labelText = '橋本駅 → 次郎丸駅';
+            else if (value === 'subway_jirou_to_hashimoto') labelText = '次郎丸駅 → 橋本駅';
+            else if (value === 'subway_jirou_to_hakata') labelText = '次郎丸駅 → 博多駅';
+        }
+
         if (isBus) {
             document.getElementById('busResultText').textContent = labelText;
         } else {
             document.getElementById('subwayResultText').textContent = labelText;
         }
 
-        // 路線図を非表示にし、候補エリアを表示
         document.getElementById('mapSection').classList.add('hidden');
         document.getElementById('candidatesSection').classList.add('active');
 
-        // 曜日判定（簡易的に平日・土曜・休日を決定。必要に応じて調整可能）
         const now = new Date();
-        const dayOfWeek = now.getDay(); // 0:日, 6:土
+        const dayOfWeek = now.getDay();
         let dayType = 'weekday';
         if (dayOfWeek === 6) dayType = 'saturday';
         if (dayOfWeek === 0) dayType = 'holiday';
@@ -435,7 +444,6 @@
             const response = await fetch(jsonFileName);
             if (!response.ok) throw new Error('ファイルが見つかりません');
             const data = await response.json();
-            // JSONの構造に合わせて全データをフラットな配列として格納
             currentMasterData = parseTimetableData(data);
             updateCandidates();
             
@@ -447,14 +455,12 @@
     }
 
     function parseTimetableData(jsonData) {
-        // 各JSONの構造に応じて時刻リストを生成する処理
         let list = [];
         if (Array.isArray(jsonData)) {
             list = jsonData;
         } else if (jsonData.timetable) {
             list = jsonData.timetable;
         } else {
-            // キーバリュー形式（例: "08": ["36", "41", "51"]）の場合の展開
             for (let hour in jsonData) {
                 let minutes = jsonData[hour];
                 if (Array.isArray(minutes)) {
@@ -478,7 +484,6 @@
         const currentTotalMinutes = now.getHours() * 60 + now.getMinutes();
         const currentSeconds = now.getSeconds();
 
-        // 未来の時刻を抽出してソート
         let upcoming = currentMasterData.map(item => {
             let h = parseInt(item.hour || item.time.split(':')[0]);
             let m = parseInt(item.minute || item.time.split(':')[1]);
@@ -539,7 +544,6 @@
         container.innerHTML = html;
     }
 
-    // 現在日時更新
     function updateDateTime() {
         const now = new Date();
         const year = now.getFullYear();
