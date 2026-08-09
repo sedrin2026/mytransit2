@@ -24,7 +24,7 @@
             max-width: 480px;
             display: flex;
             flex-direction: column;
-            gap: 8px; /* 全体の間隔を狭く詰める */
+            gap: 8px;
         }
 
         /* ヘッダー部分 */
@@ -95,11 +95,11 @@
         }
 
         .btn-subway {
-            background-color: #558b6e; /* ご指定の薄いモスグリーン */
+            background-color: #558b6e;
         }
 
-        /* 日時表示バー */
-        .datetime-bar {
+        /* 日時エリアバナー、および展開される選択パネル（同サイズ） */
+        .banner-box {
             background-color: #54a0ff;
             color: #fff;
             text-align: center;
@@ -108,6 +108,41 @@
             font-size: 0.95rem;
             font-weight: bold;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 展開用パネルの共通スタイル（日時バーと同じサイズ感・角丸・影） */
+        .expand-panel {
+            background-color: #ffffff;
+            color: #333;
+            border: 2px solid #54a0ff;
+            padding: 8px 12px;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            display: none; /* 初期状態は非表示 */
+            align-items: center;
+            justify-content: space-around;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        .expand-panel.active {
+            display: flex; /* アクティブ時に表示 */
+        }
+
+        /* ラジオボタンのカスタム配置 */
+        .radio-label {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .radio-label input {
+            cursor: pointer;
         }
 
         /* 路線図カードエリア */
@@ -140,7 +175,6 @@
             color: #333;
         }
 
-        /* 路線図画像のプレースホルダー（高さを抑えて一画面に収まるように調整） */
         .map-placeholder {
             width: 100%;
             height: 120px;
@@ -173,16 +207,39 @@
 
     <!-- 選択ボタン -->
     <div class="select-buttons">
-        <button class="select-btn btn-bus" onclick="location.href='bus_select.html'">
+        <button class="select-btn btn-bus" onclick="togglePanel('bus')">
             🚌 バス停から選択
         </button>
-        <button class="select-btn btn-subway" onclick="location.href='subway_select.html'">
+        <button class="select-btn btn-subway" onclick="togglePanel('subway')">
             🚇 地下鉄から選択
         </button>
     </div>
 
+    <!-- 「バス停から選択」押下時に直下に現れるパネル -->
+    <div class="expand-panel" id="busPanel">
+        <label class="radio-label">
+            <input type="radio" name="busStop" value="sangenya" checked> 三軒屋
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="busStop" value="jiroumaru"> 次郎丸
+        </label>
+    </div>
+
+    <!-- 「地下鉄から選択」押下時に直下に現れるパネル -->
+    <div class="expand-panel" id="subwayPanel">
+        <label class="radio-label">
+            <input type="radio" name="subwayStop" value="hashimoto" checked> 橋本駅
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="subwayStop" value="jiroumaru"> 次郎丸
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="subwayStop" value="jiroumaru_hakata"> 次郎丸（博多方面）
+        </label>
+    </div>
+
     <!-- 現在日時表示 -->
-    <div class="datetime-bar" id="datetimeBar">
+    <div class="banner-box" id="datetimeBar">
         読み込み中...
     </div>
 
@@ -204,6 +261,21 @@
 </div>
 
 <script>
+    // パネルの開閉切り替え（排他制御）
+    function togglePanel(type) {
+        const busPanel = document.getElementById('busPanel');
+        const subwayPanel = document.getElementById('subwayPanel');
+
+        if (type === 'bus') {
+            busPanel.classList.toggle('active');
+            subwayPanel.classList.remove('active');
+        } else if (type === 'subway') {
+            subwayPanel.classList.toggle('active');
+            busPanel.classList.remove('active');
+        }
+    }
+
+    // 現在日時更新
     function updateDateTime() {
         const now = new Date();
         const year = now.getFullYear();
