@@ -281,6 +281,15 @@
             font-size: 0.75rem;
             font-weight: bold;
         }
+        
+        .next-day-notice {
+            font-size: 0.75rem;
+            color: #e67e22;
+            font-weight: bold;
+            background: #fdf5e6;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
@@ -439,10 +448,8 @@
         const jsonFileName = `${value}_${dayType}.json`;
 
         try {
-            // フェッチ試行（もし見つからない場合のフォールバックとして他の曜日も試せるように堅牢化）
             let response = await fetch(jsonFileName);
             if (!response.ok) {
-                // 万が一該当曜日のファイルがない場合は weekday や別のバリエーションをフォールバックとして試す
                 response = await fetch(`${value}_weekday.json`);
             }
             if (!response.ok) throw new Error('ファイルが見つかりません: ' + jsonFileName);
@@ -465,7 +472,6 @@
         } else if (jsonData.timetable && Array.isArray(jsonData.timetable)) {
             list = jsonData.timetable;
         } else {
-            // オブジェクト形式（例: {"08": ["36", "41"], ...} または {"timetable": ...}）の包括的パース
             for (let hour in jsonData) {
                 if (hour === 'timetable') continue;
                 let minutes = jsonData[hour];
@@ -481,7 +487,6 @@
             }
         }
         
-        // データの正規化（hour と minute を確実に数値または文字列化）
         return list.map(item => {
             let h = item.hour !== undefined ? String(item.hour).padStart(2, '0') : '';
             let m = '';
@@ -505,32 +510,49 @@
         if (!currentMasterData || currentMasterData.length === 0) return;
 
         const now = new Date();
-        const currentTotalMinutes = now.getHours() * 60 + now.getMinutes();
-        const currentSeconds = now.getSeconds();
+        const currentTotalSeconds = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
 
         let upcoming = currentMasterData.map(item => {
             let h = parseInt(item.hour, 10);
             let m = parseInt(item.minute, 10);
-            let totalM = h * 60 + m;
-            return { ...item, totalM, h, m };
+            let totalSec = h * 3600 + m * 60;
+            return { ...item, totalSec, h, m, isNextDay: false };
         }).filter(item => {
-            let diff = (item.totalM * 60) - (currentTotalMinutes * 60 + currentSeconds);
-            return diff >= 0;
+            return item.totalSec >= currentTotalSeconds;
         });
 
-        upcoming.sort((a, b) => a.totalM - b.totalM);
-        const top5 = upcoming.slice(0, 5);
+        upcoming.sort((a, b) => a.totalSec - b.totalSec);
+
+        let top5 = upcoming.slice(0, 5);
+        
+        if (top5.length < 5) {
+            let allSorted = [...currentMasterData].map(item => {
+                let h = parseInt(item.hour, 10);
+                let m = parseInt(item.minute, 10);
+                let totalSec = h * 3600 + m * 60;
+                return { ...item, totalSec, h, m, isNextDay: true };
+            });
+            allSorted.sort((a, b) => a.totalSec - b.totalSec);
+
+            let needed = 5 - top5.length;
+            let nextDayItems = allSorted.slice(0, needed);
+            top5 = [...top5, ...nextDayItems];
+        }
 
         const container = document.getElementById('candidatesSection');
         if (top5.length === 0) {
-            container.innerHTML = `<div class="candidate-card" style="text-align:center;">本日の残りの運行便はありません</div>`;
+            container.innerHTML = `<div class="candidate-card" style="text-align:center;">有効な運行便データがありません</div>`;
             return;
         }
 
         let html = '';
         top5.forEach((item, index) => {
-            let targetDate = new Date();
+            let targetDate = new Date(now);
+            if (item.isNextDay) {
+                targetDate.setDate(targetDate.getDate() + 1);
+            }
             targetDate.setHours(item.h, item.m, 0, 0);
+
             let diffSec = Math.floor((targetDate - now) / 1000);
             
             let timeLeftStr = '';
@@ -539,18 +561,26 @@
             } else if (diffSec < 3600) {
                 let m = Math.floor(diffSec / 60);
                 timeLeftStr = `あと${m}分`;
-            } else {
+            } else if (diffSec < 86400) {
                 let h = Math.floor(diffSec / 3600);
                 let m = Math.floor((diffSec % 3600) / 60);
                 timeLeftStr = `あと${h}時間${m}分`;
+            } else {
+                let d = Math.floor(diffSec / 86400);
+                let h = Math.floor((diffSec % 86400) / 3600);
+                timeLeftStr = `あと${d}日${h}時間`;
             }
 
             let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
+            let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
             
             html += `
                 <div class="candidate-card">
                     <div class="candidate-header-row">
-                        <span class="candidate-badge rank-${index}">第${index + 1}候補</span>
+                        <div>
+                            <span class="candidate-badge rank-${index}">第${index + 1}候補</span>
+                            ${nextDayBadge}
+                        </div>
                         <span class="time-left-badge time-left-${index}">${timeLeftStr}</span>
                     </div>
                     <div class="candidate-main-row">
