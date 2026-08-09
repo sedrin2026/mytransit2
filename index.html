@@ -31,29 +31,20 @@
         header {
             text-align: center;
             padding: 2px 0;
-        }
-
-        .logo-area {
-            font-size: 1.5rem;
-            font-weight: 900;
-            letter-spacing: 1px;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 6px;
-            margin-bottom: 2px;
+            gap: 4px;
         }
 
-        /* ③ Googleカラーに変更 (Blue, Red, Yellow, Blue, Green, Red, Yellow, Blue, Green) */
-        .logo-text span:nth-child(1) { color: #4285F4; } /* M */
-        .logo-text span:nth-child(2) { color: #EA4335; } /* Y */
-        .logo-text span:nth-child(3) { color: #FBBC05; } /* T */
-        .logo-text span:nth-child(4) { color: #4285F4; } /* R */
-        .logo-text span:nth-child(5) { color: #34A853; } /* A */
-        .logo-text span:nth-child(6) { color: #EA4335; } /* N */
-        .logo-text span:nth-child(7) { color: #FBBC05; } /* S */
-        .logo-text span:nth-child(8) { color: #4285F4; } /* I */
-        .logo-text span:nth-child(9) { color: #34A853; } /* T */
+        /* ロゴ等を削除し、header-banner.pngを余白・レイアウト内に収まるよう調整 */
+        .header-banner {
+            max-width: 100%;
+            height: auto;
+            max-height: 48px;
+            object-fit: contain;
+            display: block;
+        }
 
         .app-subtitle {
             font-size: 0.65rem;
@@ -126,12 +117,10 @@
             display: flex;
         }
 
-        /* ② バス用パネル・バナーはオレンジに統一 */
         #busPanel {
             border: 2px solid #ffb143;
         }
 
-        /* ② 地下鉄用パネル・バナーはモスグリーンに統一 */
         #subwayPanel {
             border: 2px solid #68b388;
         }
@@ -313,13 +302,7 @@
 <div class="container">
     <!-- ヘッダー -->
     <header>
-        <div class="logo-area">
-            🚌 
-            <div class="logo-text">
-                <span>M</span><span>Y</span> <span>T</span><span>R</span><span>A</span><span>N</span><span>S</span><span>I</span><span>T</span>
-            </div>
-            🦒
-        </div>
+        <img src="header-banner.png" alt="HEADER BANNER" class="header-banner">
         <div class="app-subtitle">TRANSPORTATION APP</div>
     </header>
 
