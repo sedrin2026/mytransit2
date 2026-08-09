@@ -445,7 +445,6 @@
         if (dayOfWeek === 6) dayType = 'saturday';
         if (dayOfWeek === 0) dayType = 'holiday';
 
-        // GitHub Pagesのサブディレクトリ構造（/mytransit2/）でも確実に同じ階層のJSONを読み込めるように './' を明示
         const jsonFileName = `./${value}_${dayType}.json`;
         const fallbackFileName = `./${value}_weekday.json`;
 
@@ -488,7 +487,13 @@
                 if (Array.isArray(minutes)) {
                     minutes.forEach(item => {
                         if (typeof item === 'object' && item !== null) {
-                            list.push({ hour: hour, minute: item.minute || item.time || '', destination: item.destination || '行先', route: item.route || '1' });
+                            list.push({ 
+                                hour: hour, 
+                                minute: item.minute || item.time || '', 
+                                departure: item.departure, 
+                                destination: item.destination || '行先', 
+                                route: item.route || '1' 
+                            });
                         } else {
                             list.push({ hour: hour, minute: item, destination: '行先', route: '1' });
                         }
@@ -503,10 +508,17 @@
             let dest = item.destination || item.dest || '各方面';
             let rt = item.route || item.bus_no || '1';
 
-            if (item.minute !== undefined) {
+            // 【修正箇所】 item.departure を最優先でチェックし、"HH:MM" 形式から hour と minute を正しく分割・取得する
+            if (item.departure !== undefined) {
+                const parts = String(item.departure).split(':');
+                if (parts.length === 2) {
+                    h = parts[0].padStart(2, '0');
+                    m = parts[1].padStart(2, '0');
+                }
+            } else if (item.minute !== undefined) {
                 m = String(item.minute).padStart(2, '0');
             } else if (item.time !== undefined) {
-                let parts = String(item.time).split(':');
+                const parts = String(item.time).split(':');
                 if (parts.length === 2) {
                     h = parts[0].padStart(2, '0');
                     m = parts[1].padStart(2, '0');
