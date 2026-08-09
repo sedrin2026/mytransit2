@@ -44,13 +44,16 @@
             margin-bottom: 2px;
         }
 
-        .logo-text span:nth-child(1) { color: #ff6b81; }
-        .logo-text span:nth-child(2) { color: #ffa502; }
-        .logo-text span:nth-child(3) { color: #2ed573; }
-        .logo-text span:nth-child(4) { color: #1e90ff; }
-        .logo-text span:nth-child(5) { color: #ff4757; }
-        .logo-text span:nth-child(6) { color: #3742fa; }
-        .logo-text span:nth-child(7) { color: #2f3542; }
+        /* ③ Googleカラーに変更 (Blue, Red, Yellow, Blue, Green, Red, Yellow, Blue, Green) */
+        .logo-text span:nth-child(1) { color: #4285F4; } /* M */
+        .logo-text span:nth-child(2) { color: #EA4335; } /* Y */
+        .logo-text span:nth-child(3) { color: #FBBC05; } /* T */
+        .logo-text span:nth-child(4) { color: #4285F4; } /* R */
+        .logo-text span:nth-child(5) { color: #34A853; } /* A */
+        .logo-text span:nth-child(6) { color: #EA4335; } /* N */
+        .logo-text span:nth-child(7) { color: #FBBC05; } /* S */
+        .logo-text span:nth-child(8) { color: #4285F4; } /* I */
+        .logo-text span:nth-child(9) { color: #34A853; } /* T */
 
         .app-subtitle {
             font-size: 0.65rem;
@@ -109,7 +112,6 @@
         .expand-panel {
             background-color: #ffffff;
             color: #333;
-            border: 2px solid #54a0ff;
             padding: 8px 12px;
             border-radius: 10px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -122,6 +124,16 @@
 
         .expand-panel.active {
             display: flex;
+        }
+
+        /* ② バス用パネル・バナーはオレンジに統一 */
+        #busPanel {
+            border: 2px solid #ffb143;
+        }
+
+        /* ② 地下鉄用パネル・バナーはモスグリーンに統一 */
+        #subwayPanel {
+            border: 2px solid #68b388;
         }
 
         .radio-label {
@@ -140,7 +152,6 @@
         .result-banner {
             background-color: #ffffff;
             color: #333;
-            border: 2px solid #ff9f43;
             text-align: center;
             padding: 8px;
             border-radius: 10px;
@@ -154,6 +165,14 @@
 
         .result-banner.active {
             display: flex;
+        }
+
+        #busResultBanner {
+            border: 2px solid #ffb143;
+        }
+
+        #subwayResultBanner {
+            border: 2px solid #68b388;
         }
 
         /* 日時エリアバナー */
@@ -336,10 +355,10 @@
             <input type="radio" name="subwayStop" value="hashimoto" onchange="handleSubwaySelect(this)"> 橋本駅
         </label>
         <label class="radio-label">
-            <input type="radio" name="subwayStop" value="jiroumaru" onchange="handleSubwaySelect(this)"> 次郎丸
+            <input type="radio" name="subwayStop" value="jiroumaru" onchange="handleSubwaySelect(this)"> 次郎丸駅
         </label>
         <label class="radio-label">
-            <input type="radio" name="subwayStop" value="jiroumaru_hakata" onchange="handleSubwaySelect(this)"> 次郎丸（博多方面）
+            <input type="radio" name="subwayStop" value="jiroumaru_hakata" onchange="handleSubwaySelect(this)"> 次郎丸駅（博多方面）
         </label>
     </div>
 
