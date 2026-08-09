@@ -27,7 +27,7 @@
             gap: 8px;
         }
 
-        /* ヘッダー部分：コンテナのパディングを相殺して左右両端にピッタリ合わせる */
+        /* ヘッダー部分：画像の両端の余白をなくすためカバー表示に調整 */
         header {
             width: calc(100% + 16px);
             margin-left: -8px;
@@ -43,7 +43,7 @@
         .header-banner {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover; /* 画像の余白を切り詰めて画面両端にジャストフィットさせます */
             display: block;
         }
 
@@ -285,7 +285,7 @@
 <body>
 
 <div class="container">
-    <!-- ヘッダー（左右両端にジャストフィット） -->
+    <!-- ヘッダー（バナーの余白をなくして画面いっぱいに表示） -->
     <header>
         <img src="header-banner.png" alt="HEADER BANNER" class="header-banner">
     </header>
