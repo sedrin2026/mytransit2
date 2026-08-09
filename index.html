@@ -445,15 +445,18 @@
         if (dayOfWeek === 6) dayType = 'saturday';
         if (dayOfWeek === 0) dayType = 'holiday';
 
-        // サブディレクトリ（mytransit2等）の環境でも正しく相対パスで取得できるように './' を付与
+        // GitHub Pagesのサブディレクトリ構造（/mytransit2/）でも確実に同じ階層のJSONを読み込めるように './' を明示
         const jsonFileName = `./${value}_${dayType}.json`;
+        const fallbackFileName = `./${value}_weekday.json`;
 
         try {
             let response = await fetch(jsonFileName);
             if (!response.ok) {
-                response = await fetch(`./${value}_weekday.json`);
+                response = await fetch(fallbackFileName);
             }
-            if (!response.ok) throw new Error('ファイルが見つかりません: ' + jsonFileName);
+            if (!response.ok) {
+                throw new Error(`HTTPエラー! ステータス: ${response.status}`);
+            }
             
             const data = await response.json();
             currentMasterData = parseTimetableData(data);
@@ -462,7 +465,13 @@
             if (timerInterval) clearInterval(timerInterval);
             timerInterval = setInterval(updateCandidates, 1000);
         } catch (error) {
-            document.getElementById('candidatesSection').innerHTML = `<div class="candidate-card" style="text-align:center; color:red;">時刻表データ(${jsonFileName})の読み込みに失敗しました<br><small>${error.message}</small></div>`;
+            console.error("時刻表読み込みエラー:", error);
+            document.getElementById('candidatesSection').innerHTML = `
+                <div class="candidate-card" style="text-align:center; color:red; padding:15px;">
+                    <b>時刻表データの読み込みに失敗しました</b><br>
+                    <small style="color:#555; word-break:break-all; margin-top:5px; display:block;">対象ファイル: ${jsonFileName}</small>
+                    <small style="color:red; margin-top:3px; display:block;">${error.message}</small>
+                </div>`;
         }
     }
 
