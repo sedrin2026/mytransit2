@@ -63,6 +63,11 @@
             display: inline-block;
         }
 
+        /* ① ロゴ下と選択ボタンの間に「ボタン縦幅の半分の余白」を作成 */
+        .header-spacer {
+            height: 20px; 
+        }
+
         /* 選択ボタンエリア */
         .select-buttons {
             display: flex;
@@ -90,30 +95,18 @@
             transform: scale(0.98);
         }
 
+        /* ② 少し薄い蛍光色風に変更（オレンジ・モスグリーン） */
         .btn-bus {
-            background-color: #ffa502;
+            background-color: #ffb143; 
+            color: #fff;
         }
 
         .btn-subway {
-            background-color: #558b6e;
-        }
-
-        /* 日時エリアバナー、および展開される選択パネル（同サイズ） */
-        .banner-box {
-            background-color: #54a0ff;
+            background-color: #68b388; 
             color: #fff;
-            text-align: center;
-            padding: 8px;
-            border-radius: 10px;
-            font-size: 0.95rem;
-            font-weight: bold;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
-        /* 展開用パネルの共通スタイル（日時バーと同じサイズ感・角丸・影） */
+        /* 展開用パネル */
         .expand-panel {
             background-color: #ffffff;
             color: #333;
@@ -121,7 +114,7 @@
             padding: 8px 12px;
             border-radius: 10px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            display: none; /* 初期状態は非表示 */
+            display: none;
             align-items: center;
             justify-content: space-around;
             font-size: 0.85rem;
@@ -129,10 +122,9 @@
         }
 
         .expand-panel.active {
-            display: flex; /* アクティブ時に表示 */
+            display: flex;
         }
 
-        /* ラジオボタンのカスタム配置 */
         .radio-label {
             display: flex;
             align-items: center;
@@ -145,7 +137,95 @@
             cursor: pointer;
         }
 
+        /* 日時エリアバナー（クリック可能） */
+        .banner-box {
+            background-color: #54a0ff;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-box:active {
+            opacity: 0.9;
+        }
+
+        /* ③ 日時エリア押下で展開される簡易カレンダー */
+        .calendar-panel {
+            background-color: #ffffff;
+            border: 2px solid #54a0ff;
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            display: none;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .calendar-panel.active {
+            display: flex;
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 0 4px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        .calendar-day-name {
+            font-weight: bold;
+            color: #666;
+            padding: 4px 0;
+        }
+
+        .calendar-date {
+            padding: 8px 0;
+            border-radius: 6px;
+            background-color: #f7f9fa;
+            cursor: pointer;
+        }
+
+        .calendar-date:hover {
+            background-color: #e2ebf5;
+        }
+
+        .calendar-date.today {
+            background-color: #54a0ff;
+            color: #fff;
+            font-weight: bold;
+        }
+
         /* 路線図カードエリア */
+        .map-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .map-section.hidden {
+            display: none;
+        }
+
         .map-card {
             background-color: #fff;
             border-radius: 12px;
@@ -205,6 +285,9 @@
         <div class="app-subtitle">TRANSPORTATION APP</div>
     </header>
 
+    <!-- ① ロゴ下の余白 -->
+    <div class="header-spacer"></div>
+
     <!-- 選択ボタン -->
     <div class="select-buttons">
         <button class="select-btn btn-bus" onclick="togglePanel('bus')">
@@ -215,7 +298,7 @@
         </button>
     </div>
 
-    <!-- 「バス停から選択」押下時に直下に現れるパネル -->
+    <!-- 「バス停から選択」押下時のパネル -->
     <div class="expand-panel" id="busPanel">
         <label class="radio-label">
             <input type="radio" name="busStop" value="sangenya" checked> 三軒屋
@@ -225,7 +308,7 @@
         </label>
     </div>
 
-    <!-- 「地下鉄から選択」押下時に直下に現れるパネル -->
+    <!-- 「地下鉄から選択」押下時のパネル -->
     <div class="expand-panel" id="subwayPanel">
         <label class="radio-label">
             <input type="radio" name="subwayStop" value="hashimoto" checked> 橋本駅
@@ -238,30 +321,98 @@
         </label>
     </div>
 
-    <!-- 現在日時表示 -->
-    <div class="banner-box" id="datetimeBar">
+    <!-- 日時エリアバナー（クリックでカレンダー表示切替） -->
+    <div class="banner-box" id="datetimeBar" onclick="toggleCalendar()">
         読み込み中...
     </div>
 
-    <!-- 西鉄バス路線図カード -->
-    <div class="map-card bus">
-        <div class="map-title">🚌 西鉄バス路線図</div>
-        <div class="map-placeholder">
-            路線図画像スペース<br>(後から画像を追加します)
+    <!-- ③ 日時エリア押下で出現する簡易カレンダー -->
+    <div class="calendar-panel" id="calendarPanel">
+        <div class="calendar-header">
+            <span>2026年 8月</span>
+        </div>
+        <div class="calendar-grid">
+            <div class="calendar-day-name" style="color: #ff6b81;">日</div>
+            <div class="calendar-day-name">月</div>
+            <div class="calendar-day-name">火</div>
+            <div class="calendar-day-name">水</div>
+            <div class="calendar-day-name">木</div>
+            <div class="calendar-day-name">金</div>
+            <div class="calendar-day-name" style="color: #1e90ff;">土</div>
+            
+            <!-- カレンダーの日付サンプル（8月） -->
+            <div class="calendar-date" style="color: #ccc;">26</div>
+            <div class="calendar-date" style="color: #ccc;">27</div>
+            <div class="calendar-date" style="color: #ccc;">28</div>
+            <div class="calendar-date" style="color: #ccc;">29</div>
+            <div class="calendar-date" style="color: #ccc;">30</div>
+            <div class="calendar-date" style="color: #ccc;">31</div>
+            <div class="calendar-date">1</div>
+
+            <div class="calendar-date">2</div>
+            <div class="calendar-date">3</div>
+            <div class="calendar-date">4</div>
+            <div class="calendar-date">5</div>
+            <div class="calendar-date">6</div>
+            <div class="calendar-date">7</div>
+            <div class="calendar-date">8</div>
+            
+            <div class="calendar-date today">9</div>
+            <div class="calendar-date">10</div>
+            <div class="calendar-date">11</div>
+            <div class="calendar-date">12</div>
+            <div class="calendar-date">13</div>
+            <div class="calendar-date">14</div>
+            <div class="calendar-date">15</div>
+
+            <div class="calendar-date">16</div>
+            <div class="calendar-date">17</div>
+            <div class="calendar-date">18</div>
+            <div class="calendar-date">19</div>
+            <div class="calendar-date">20</div>
+            <div class="calendar-date">21</div>
+            <div class="calendar-date">22</div>
+
+            <div class="calendar-date">23</div>
+            <div class="calendar-date">24</div>
+            <div class="calendar-date">25</div>
+            <div class="calendar-date">26</div>
+            <div class="calendar-date">27</div>
+            <div class="calendar-date">28</div>
+            <div class="calendar-date">29</div>
+
+            <div class="calendar-date">30</div>
+            <div class="calendar-date">31</div>
+            <div class="calendar-date" style="color: #ccc;">1</div>
+            <div class="calendar-date" style="color: #ccc;">2</div>
+            <div class="calendar-date" style="color: #ccc;">3</div>
+            <div class="calendar-date" style="color: #ccc;">4</div>
+            <div class="calendar-date" style="color: #ccc;">5</div>
         </div>
     </div>
 
-    <!-- 福岡市地下鉄路線図カード -->
-    <div class="map-card subway">
-        <div class="map-title">🚇 福岡市地下鉄 路線図</div>
-        <div class="map-placeholder">
-            路線図画像スペース<br>(後から画像を追加します)
+    <!-- 路線図エリア（カレンダー展開時に非表示になる部分） -->
+    <div class="map-section" id="mapSection">
+        <!-- 西鉄バス路線図カード -->
+        <div class="map-card bus">
+            <div class="map-title">🚌 西鉄バス路線図</div>
+            <div class="map-placeholder">
+                路線図画像スペース<br>(後から画像を追加します)
+            </div>
+        </div>
+
+        <!-- 福岡市地下鉄路線図カード -->
+        <div class="map-card subway">
+            <div class="map-title">🚇 福岡市地下鉄 路線図</div>
+            <div class="map-placeholder">
+                路線図画像スペース<br>(後から画像を追加します)
+            </div>
         </div>
     </div>
 </div>
 
 <script>
-    // パネルの開閉切り替え（排他制御）
+    // 選択パネルの開閉
     function togglePanel(type) {
         const busPanel = document.getElementById('busPanel');
         const subwayPanel = document.getElementById('subwayPanel');
@@ -273,6 +424,15 @@
             subwayPanel.classList.toggle('active');
             busPanel.classList.remove('active');
         }
+    }
+
+    // カレンダーの開閉と路線図エリアの表示・非表示切り替え
+    function toggleCalendar() {
+        const calendarPanel = document.getElementById('calendarPanel');
+        const mapSection = document.getElementById('mapSection');
+
+        calendarPanel.classList.toggle('active');
+        mapSection.classList.toggle('hidden');
     }
 
     // 現在日時更新
