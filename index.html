@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="manifest" href="./manifest.json">
-<meta name="theme-color" content="#00a497">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#00a497">
     
-    <title>MY TRANSIT 2- TRANSPORTATION APP</title>
+    <title>MY TRANSIT 2 - バス時刻表</title>
     <style>
         :root {
             --bg-color: #fcfcfc;
@@ -51,7 +51,7 @@
             display: block;
         }
 
-        /* 選択ボタンエリア */
+        /* 選択ボタンエリア（バス専用） */
         .select-buttons {
             display: flex;
             gap: 8px;
@@ -61,8 +61,8 @@
             flex: 1;
             border: none;
             border-radius: 12px;
-            padding: 10px 6px;
-            font-size: 0.85rem;
+            padding: 12px 6px;
+            font-size: 0.9rem;
             font-weight: bold;
             color: #fff;
             cursor: pointer;
@@ -74,9 +74,8 @@
         }
 
         .btn-bus { background-color: #ffb143; color: #fff; }
-        .btn-subway { background-color: #68b388; color: #fff; }
 
-        /* 展開用パネル共通 */
+        /* 展開用パネル（バス専用） */
         .expand-panel {
             background-color: #ffffff;
             color: #333;
@@ -88,13 +87,12 @@
             justify-content: space-around;
             flex-wrap: wrap;
             gap: 8px;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             font-weight: bold;
+            border: 2px solid #ffb143;
         }
 
         .expand-panel.active { display: flex; }
-        #busPanel { border: 2px solid #ffb143; }
-        #subwayPanel { border: 2px solid #68b388; }
 
         .radio-label {
             display: flex;
@@ -104,7 +102,7 @@
             white-space: nowrap;
         }
 
-        /* 連動バナー枠 */
+        /* 結果バナー */
         .result-banner {
             background-color: #ffffff;
             color: #d35400;
@@ -117,11 +115,10 @@
             align-items: center;
             position: relative;
             justify-content: center;
+            border: 2px solid #ffb143;
         }
 
         .result-banner.active { display: flex; }
-        #busResultBanner { border: 2px solid #ffb143; }
-        #subwayResultBanner { border: 2px solid #68b388; }
 
         .close-btn {
             position: absolute;
@@ -169,7 +166,7 @@
         .calendar-date { padding: 8px 0; border-radius: 6px; background-color: #f7f9fa; cursor: pointer; }
         .calendar-date.today { background-color: #54a0ff; color: #fff; font-weight: bold; }
 
-        /* 路線図エリア */
+        /* 路線図エリア（バス専用） */
         .map-section {
             display: flex;
             flex-direction: column;
@@ -186,17 +183,13 @@
             gap: 6px;
             text-decoration: none;
             color: inherit;
+            border: 2px solid #ffcc5c;
         }
-        .map-card.bus { border: 2px solid #ffcc5c; }
-        .map-card.subway { border: 2px solid #a3cb38; }
         .map-title { font-size: 0.85rem; font-weight: bold; text-align: center; color: #333; }
-        
-        /* 西鉄バス路線図の画像を縮小して地下鉄路線図の見切れを防ぐ調整 */
-        .map-card.bus .map-img {
-            max-height: 180px;
+        .map-card .map-img {
+            max-height: 220px;
             object-fit: contain;
         }
-
         .map-img { width: 100%; height: auto; border-radius: 8px; display: block; }
 
         /* 検索結果エリア */
@@ -274,6 +267,7 @@
         .arrival-display {
             font-size: 0.9rem;
             color: #666;
+            font-weight: bold;
         }
 
         .route-info {
@@ -311,8 +305,7 @@
     </header>
 
     <div class="select-buttons">
-        <button class="select-btn btn-bus" onclick="togglePanel('bus')">🚍 バス停から選択</button>
-        <button class="select-btn btn-subway" onclick="togglePanel('subway')">🚇 地下鉄から選択</button>
+        <button class="select-btn btn-bus" onclick="togglePanel()">🚍 バス停から選択</button>
     </div>
 
     <!-- バスパネル -->
@@ -326,23 +319,6 @@
     </div>
     <div class="result-banner" id="busResultBanner">
         <span id="busResultText"></span>
-        <button class="close-btn" onclick="clearSelection()">×</button>
-    </div>
-
-    <!-- 地下鉄パネル -->
-    <div class="expand-panel" id="subwayPanel">
-        <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_hashimoto_to_jirou" onchange="loadTimetable(this)"> 橋本駅 → 次郎丸駅
-        </label>
-        <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_jirou_to_hashimoto" onchange="loadTimetable(this)"> 次郎丸駅 → 橋本駅
-        </label>
-        <label class="radio-label">
-            <input type="radio" name="transitSelect" value="subway_jirou_to_hakata" onchange="loadTimetable(this)"> 次郎丸駅 → 博多駅
-        </label>
-    </div>
-    <div class="result-banner" id="subwayResultBanner">
-        <span id="subwayResultText"></span>
         <button class="close-btn" onclick="clearSelection()">×</button>
     </div>
 
@@ -363,21 +339,16 @@
             <div class="calendar-date" style="color: #ccc;">26</div><div class="calendar-date" style="color: #ccc;">27</div><div class="calendar-date" style="color: #ccc;">28</div><div class="calendar-date" style="color: #ccc;">29</div><div class="calendar-date" style="color: #ccc;">30</div><div class="calendar-date" style="color: #ccc;">31</div><div class="calendar-date">1</div>
             <div class="calendar-date">2</div><div class="calendar-date">3</div><div class="calendar-date">4</div><div class="calendar-date">5</div><div class="calendar-date">6</div><div class="calendar-date">7</div><div class="calendar-date">8</div>
             <div class="calendar-date today">9</div><div class="calendar-date">10</div><div class="calendar-date">11</div><div class="calendar-date">12</div><div class="calendar-date">13</div><div class="calendar-date">14</div><div class="calendar-date">15</div>
-            <div class="calendar-date">16</div><div class="calendar-date">17</div><div class="calendar-date">18</div><div class="calendar-date">19</div><div class="calendar-date">20</div><div class="calendar-date">21</div><div class="calendar-date">22</div>
-            <div class="calendar-date">23</div><div class="calendar-date">24</div><div class="calendar-date">25</div><div class="calendar-date">26</div><div class="calendar-date">27</div><div class="calendar-date">28</div><div class="calendar-date">29</div>
+            <div class="calendar-date">16</div><div class="calendar-date">17</div><div class="calendar-date">18</div><div class="calendar-date">19</div><div class="calendar-date">20</div><div class="calendar-date">21</div><div class="calendar-date">22</div><div class="calendar-date">23</div><div class="calendar-date">24</div><div class="calendar-date">25</div><div class="calendar-date">26</div><div class="calendar-date">27</div><div class="calendar-date">28</div><div class="calendar-date">29</div>
             <div class="calendar-date">30</div><div class="calendar-date">31</div><div class="calendar-date" style="color: #ccc;">1</div><div class="calendar-date" style="color: #ccc;">2</div><div class="calendar-date" style="color: #ccc;">3</div><div class="calendar-date" style="color: #ccc;">4</div><div class="calendar-date" style="color: #ccc;">5</div>
         </div>
     </div>
 
     <!-- 路線図エリア -->
     <div class="map-section" id="mapSection">
-        <a href="bus-map.png" target="_blank" class="map-card bus">
+        <a href="bus-map.png" target="_blank" class="map-card">
             <div class="map-title">🚍 西鉄バス路線図</div>
             <img src="bus-map.png" alt="バス路線図" class="map-img">
-        </a>
-        <a href="subway-map.png" target="_blank" class="map-card subway">
-            <div class="map-title">🚇 福岡市地下鉄 路線図</div>
-            <img src="subway-map.png" alt="地下鉄路線図" class="map-img">
         </a>
     </div>
 
@@ -389,27 +360,15 @@
     let currentMasterData = [];
     let timerInterval = null;
 
-    function togglePanel(type) {
+    function togglePanel() {
         const busPanel = document.getElementById('busPanel');
-        const subwayPanel = document.getElementById('subwayPanel');
-
-        if (type === 'bus') {
-            const willActive = !busPanel.classList.contains('active');
-            busPanel.classList.toggle('active', willActive);
-            subwayPanel.classList.remove('active');
-        } else if (type === 'subway') {
-            const willActive = !subwayPanel.classList.contains('active');
-            subwayPanel.classList.toggle('active', willActive);
-            busPanel.classList.remove('active');
-        }
+        busPanel.classList.toggle('active');
     }
 
     function clearSelection() {
         document.querySelectorAll('input[name="transitSelect"]').forEach(el => el.checked = false);
         document.getElementById('busPanel').classList.remove('active');
-        document.getElementById('subwayPanel').classList.remove('active');
         document.getElementById('busResultBanner').classList.remove('active');
-        document.getElementById('subwayResultBanner').classList.remove('active');
         document.getElementById('candidatesSection').classList.remove('active');
         document.getElementById('mapSection').classList.remove('hidden');
         currentMasterData = [];
@@ -429,23 +388,10 @@
 
     async function loadTimetable(radio) {
         const value = radio.value;
-        const isBus = value.startsWith('bus');
-        
-        document.getElementById('busResultBanner').classList.toggle('active', isBus);
-        document.getElementById('subwayResultBanner').classList.toggle('active', !isBus);
+        document.getElementById('busResultBanner').classList.add('active');
         
         let labelText = radio.parentElement.textContent.trim();
-        if (!isBus) {
-            if (value === 'subway_hashimoto_to_jirou') labelText = '橋本駅 → 次郎丸駅';
-            else if (value === 'subway_jirou_to_hashimoto') labelText = '次郎丸駅 → 橋本駅';
-            else if (value === 'subway_jirou_to_hakata') labelText = '次郎丸駅 → 博多駅';
-        }
-
-        if (isBus) {
-            document.getElementById('busResultText').textContent = labelText;
-        } else {
-            document.getElementById('subwayResultText').textContent = labelText;
-        }
+        document.getElementById('busResultText').textContent = labelText;
 
         document.getElementById('mapSection').classList.add('hidden');
         document.getElementById('candidatesSection').classList.add('active');
@@ -604,6 +550,12 @@
             }
 
             let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
+            
+            // ★ 到着時刻（+6分）の計算処理
+            let arrivalDate = new Date(targetDate.getTime());
+            arrivalDate.setMinutes(arrivalDate.getMinutes() + 6);
+            let arrivalFormatted = String(arrivalDate.getHours()).padStart(2, '0') + ':' + String(arrivalDate.getMinutes()).padStart(2, '0');
+
             let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
             
             html += `
@@ -618,7 +570,7 @@
                     <div class="candidate-main-row">
                         <span class="dot-marker dot-${index}">●</span>
                         <span class="time-display">${timeFormatted}</span>
-                        <span class="arrival-display">→ 到着</span>
+                        <span class="arrival-display">→ ${arrivalFormatted} 到着</span>
                     </div>
                     <div class="route-info">
                         <span class="route-number-badge">${item.route}</span>
