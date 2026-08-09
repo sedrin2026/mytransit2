@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY TRANSIT - TRANSPORTATION APP</title>
+
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#00a497">
+    
+    <title>MY TRANSIT 2- TRANSPORTATION APP</title>
     <style>
         :root {
             --bg-color: #fcfcfc;
@@ -643,6 +647,18 @@
     updateDateTime();
     setInterval(updateDateTime, 1000);
 </script>
-
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => {
+            console.log('MY TRANSIT 2: ServiceWorker 登録成功:', reg.scope);
+          })
+          .catch((err) => {
+            console.log('MY TRANSIT 2: ServiceWorker 登録失敗:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>
