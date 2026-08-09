@@ -7,11 +7,6 @@
     <style>
         :root {
             --bg-color: #fcfcfc;
-            --bus-color: #ff9f43;
-            --subway-color: #2ed573;
-            --time-bar-color: #54a0ff;
-            --card-border-bus: #ffb142;
-            --card-border-subway: #7bed9f;
         }
 
         body {
@@ -19,7 +14,7 @@
             background-color: var(--bg-color);
             color: #333;
             margin: 0;
-            padding: 16px;
+            padding: 8px;
             display: flex;
             justify-content: center;
         }
@@ -29,24 +24,24 @@
             max-width: 480px;
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 8px; /* 全体の間隔を狭く詰める */
         }
 
         /* ヘッダー部分 */
         header {
             text-align: center;
-            padding: 8px 0;
+            padding: 2px 0;
         }
 
         .logo-area {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 900;
             letter-spacing: 1px;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 6px;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
 
         .logo-text span:nth-child(1) { color: #ff6b81; }
@@ -58,36 +53,36 @@
         .logo-text span:nth-child(7) { color: #2f3542; }
 
         .app-subtitle {
-            font-size: 0.75rem;
+            font-size: 0.65rem;
             color: #666;
             font-weight: bold;
             letter-spacing: 2px;
             background: #eee;
-            padding: 4px 12px;
-            border-radius: 12px;
+            padding: 2px 10px;
+            border-radius: 10px;
             display: inline-block;
         }
 
         /* 選択ボタンエリア */
         .select-buttons {
             display: flex;
-            gap: 12px;
+            gap: 8px;
         }
 
         .select-btn {
             flex: 1;
             border: none;
-            border-radius: 16px;
-            padding: 16px 8px;
-            font-size: 0.95rem;
+            border-radius: 12px;
+            padding: 10px 6px;
+            font-size: 0.85rem;
             font-weight: bold;
             color: #fff;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            gap: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: transform 0.1s;
         }
 
@@ -100,7 +95,7 @@
         }
 
         .btn-subway {
-            background-color: #70a1ff;
+            background-color: #558b6e; /* ご指定の薄いモスグリーン */
         }
 
         /* 日時表示バー */
@@ -108,22 +103,22 @@
             background-color: #54a0ff;
             color: #fff;
             text-align: center;
-            padding: 12px;
-            border-radius: 12px;
-            font-size: 1.05rem;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 0.95rem;
             font-weight: bold;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
 
         /* 路線図カードエリア */
         .map-card {
             background-color: #fff;
-            border-radius: 16px;
-            padding: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border-radius: 12px;
+            padding: 8px 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 6px;
         }
 
         .map-card.bus {
@@ -135,28 +130,28 @@
         }
 
         .map-title {
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             font-weight: bold;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 6px;
+            gap: 4px;
             color: #333;
         }
 
-        /* 路線図画像のプレースホルダー（後から画像を入れる空白スペース） */
+        /* 路線図画像のプレースホルダー（高さを抑えて一画面に収まるように調整） */
         .map-placeholder {
             width: 100%;
-            height: 220px;
+            height: 120px;
             background-color: #f7f9fa;
             border: 2px dashed #dcdde1;
-            border-radius: 10px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #a4b0be;
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             text-align: center;
         }
     </style>
@@ -194,24 +189,21 @@
     <!-- 西鉄バス路線図カード -->
     <div class="map-card bus">
         <div class="map-title">🚌 西鉄バス路線図</div>
-        <!-- 路線図画像が入る空白スペース（後から img タグ等に変更可能） -->
         <div class="map-placeholder">
-            路線図画像スペース<br>(ここに画像ファイルを追加します)
+            路線図画像スペース<br>(後から画像を追加します)
         </div>
     </div>
 
     <!-- 福岡市地下鉄路線図カード -->
     <div class="map-card subway">
         <div class="map-title">🚇 福岡市地下鉄 路線図</div>
-        <!-- 路線図画像が入る空白スペース -->
         <div class="map-placeholder">
-            路線図画像スペース<br>(ここに画像ファイルを追加します)
+            路線図画像スペース<br>(後から画像を追加します)
         </div>
     </div>
 </div>
 
 <script>
-    // 現在日時をリアルタイムで更新して表示するスクリプト
     function updateDateTime() {
         const now = new Date();
         const year = now.getFullYear();
@@ -228,7 +220,6 @@
         document.getElementById('datetimeBar').textContent = formattedString;
     }
 
-    // 初回実行 & 1秒ごとに更新
     updateDateTime();
     setInterval(updateDateTime, 1000);
 </script>
