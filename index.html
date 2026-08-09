@@ -72,7 +72,7 @@
         .btn-bus { background-color: #ffb143; color: #fff; }
         .btn-subway { background-color: #68b388; color: #fff; }
 
-        /* 展開用パネル共通（①文字はみ出し対策：flex-wrap対応、フォント微調整） */
+        /* 展開用パネル共通 */
         .expand-panel {
             background-color: #ffffff;
             color: #333;
@@ -100,7 +100,7 @@
             white-space: nowrap;
         }
 
-        /* 連動バナー枠（②文字位置を真ん中で統一、閉じるボタンとのレイアウト調整） */
+        /* 連動バナー枠 */
         .result-banner {
             background-color: #ffffff;
             color: #d35400;
@@ -188,7 +188,7 @@
         .map-title { font-size: 0.85rem; font-weight: bold; text-align: center; color: #333; }
         .map-img { width: 100%; height: auto; border-radius: 8px; display: block; }
 
-        /* 検索結果（5件候補表示エリア） */
+        /* 検索結果エリア */
         .candidates-section {
             display: none;
             flex-direction: column;
@@ -414,10 +414,8 @@
         document.getElementById('busResultBanner').classList.toggle('active', isBus);
         document.getElementById('subwayResultBanner').classList.toggle('active', !isBus);
         
-        // 地下鉄の場合は名前に「駅」を付与して中央表示する
         let labelText = radio.parentElement.textContent.trim();
         if (!isBus) {
-            // 例: 「橋本 → 次郎丸」 → 「橋本駅 → 次郎丸駅」に整形
             if (value === 'subway_hashimoto_to_jirou') labelText = '橋本駅 → 次郎丸駅';
             else if (value === 'subway_jirou_to_hashimoto') labelText = '次郎丸駅 → 橋本駅';
             else if (value === 'subway_jirou_to_hakata') labelText = '次郎丸駅 → 博多駅';
@@ -441,8 +439,14 @@
         const jsonFileName = `${value}_${dayType}.json`;
 
         try {
-            const response = await fetch(jsonFileName);
-            if (!response.ok) throw new Error('ファイルが見つかりません');
+            // フェッチ試行（もし見つからない場合のフォールバックとして他の曜日も試せるように堅牢化）
+            let response = await fetch(jsonFileName);
+            if (!response.ok) {
+                // 万が一該当曜日のファイルがない場合は weekday や別のバリエーションをフォールバックとして試す
+                response = await fetch(`${value}_weekday.json`);
+            }
+            if (!response.ok) throw new Error('ファイルが見つかりません: ' + jsonFileName);
+            
             const data = await response.json();
             currentMasterData = parseTimetableData(data);
             updateCandidates();
@@ -450,7 +454,7 @@
             if (timerInterval) clearInterval(timerInterval);
             timerInterval = setInterval(updateCandidates, 1000);
         } catch (error) {
-            document.getElementById('candidatesSection').innerHTML = `<div class="candidate-card" style="text-align:center; color:red;">時刻表データ(${jsonFileName})の読み込みに失敗しました</div>`;
+            document.getElementById('candidatesSection').innerHTML = `<div class="candidate-card" style="text-align:center; color:red;">時刻表データ(${jsonFileName})の読み込みに失敗しました<br><small>${error.message}</small></div>`;
         }
     }
 
@@ -458,15 +462,17 @@
         let list = [];
         if (Array.isArray(jsonData)) {
             list = jsonData;
-        } else if (jsonData.timetable) {
+        } else if (jsonData.timetable && Array.isArray(jsonData.timetable)) {
             list = jsonData.timetable;
         } else {
+            // オブジェクト形式（例: {"08": ["36", "41"], ...} または {"timetable": ...}）の包括的パース
             for (let hour in jsonData) {
+                if (hour === 'timetable') continue;
                 let minutes = jsonData[hour];
                 if (Array.isArray(minutes)) {
                     minutes.forEach(item => {
-                        if (typeof item === 'object') {
-                            list.push({ hour: hour, minute: item.minute, destination: item.destination, route: item.route });
+                        if (typeof item === 'object' && item !== null) {
+                            list.push({ hour: hour, minute: item.minute || item.time || '', destination: item.destination || '行先', route: item.route || '1' });
                         } else {
                             list.push({ hour: hour, minute: item, destination: '行先', route: '1' });
                         }
@@ -474,7 +480,25 @@
                 }
             }
         }
-        return list;
+        
+        // データの正規化（hour と minute を確実に数値または文字列化）
+        return list.map(item => {
+            let h = item.hour !== undefined ? String(item.hour).padStart(2, '0') : '';
+            let m = '';
+            let dest = item.destination || item.dest || '各方面';
+            let rt = item.route || item.bus_no || '1';
+
+            if (item.minute !== undefined) {
+                m = String(item.minute).padStart(2, '0');
+            } else if (item.time !== undefined) {
+                let parts = String(item.time).split(':');
+                if (parts.length === 2) {
+                    h = parts[0].padStart(2, '0');
+                    m = parts[1].padStart(2, '0');
+                }
+            }
+            return { hour: h, minute: m, destination: dest, route: rt };
+        }).filter(item => item.hour !== '' && item.minute !== '');
     }
 
     function updateCandidates() {
@@ -485,8 +509,8 @@
         const currentSeconds = now.getSeconds();
 
         let upcoming = currentMasterData.map(item => {
-            let h = parseInt(item.hour || item.time.split(':')[0]);
-            let m = parseInt(item.minute || item.time.split(':')[1]);
+            let h = parseInt(item.hour, 10);
+            let m = parseInt(item.minute, 10);
             let totalM = h * 60 + m;
             return { ...item, totalM, h, m };
         }).filter(item => {
@@ -535,8 +559,8 @@
                         <span class="arrival-display">→ 到着</span>
                     </div>
                     <div class="route-info">
-                        <span class="route-number-badge">${item.route || '系統'}</span>
-                        <span>行先: ${item.destination || '各方面'}</span>
+                        <span class="route-number-badge">${item.route}</span>
+                        <span>行先: ${item.destination}</span>
                     </div>
                 </div>
             `;
