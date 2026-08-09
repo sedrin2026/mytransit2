@@ -3,211 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>時刻表アプリ</title>
+    <title>MY TRANSIT - TRANSPORTATION APP</title>
     <style>
-        /* Android (Galaxy) ライクなクリーンUI */
         :root {
-            --primary-color: #007aff; /* Galaxyライクなアクセントブルー */
-            --bg-color: #f5f6f8;
-            --card-bg: #ffffff;
-            --text-main: #202124;
-            --text-sub: #5f6368;
-            --border-color: #dadce0;
+            --bg-color: #fcfcfc;
+            --bus-color: #ff9f43;
+            --subway-color: #2ed573;
+            --time-bar-color: #54a0ff;
+            --card-border-bus: #ffb142;
+            --card-border-subway: #7bed9f;
         }
 
         body {
-            font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             background-color: var(--bg-color);
-            color: var(--text-main);
+            color: #333;
             margin: 0;
-            padding: 0;
+            padding: 16px;
             display: flex;
             justify-content: center;
-            -webkit-tap-highlight-color: transparent;
         }
 
         .container {
             width: 100%;
             max-width: 480px;
-            padding: 16px;
-        }
-
-        /* セレクター部分のデザイン */
-        .controls {
-            background-color: var(--card-bg);
-            padding: 16px;
-            border-radius: 16px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            margin-bottom: 16px;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 16px;
         }
 
-        select {
-            width: 100%;
-            padding: 12px 16px;
-            font-size: 1rem;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background-color: #fff;
-            color: var(--text-main);
-            appearance: none; /* デフォルトの矢印を消す */
-            outline: none;
-        }
-        
-        select:focus {
-            border-color: var(--primary-color);
-        }
-
-        /* 時刻表リスト */
-        .timetable-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .card {
-            background-color: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .card-left {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .route-badge {
-            background-color: #e8f0fe;
-            color: #1967d2;
-            font-weight: 700;
-            font-size: 0.8rem;
-            padding: 4px 8px;
-            border-radius: 6px;
-            display: inline-block;
-            width: fit-content;
-        }
-
-        .time-info {
-            text-align: right;
-        }
-
-        .departure-time {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--text-main);
-        }
-
-        .arrival-time {
-            font-size: 0.85rem;
-            color: var(--text-sub);
-            margin-top: 2px;
-        }
-
-        .loading, .error-msg {
+        /* ヘッダー部分 */
+        header {
             text-align: center;
-            padding: 24px;
-            color: var(--text-sub);
+            padding: 8px 0;
+        }
+
+        .logo-area {
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            margin-bottom: 4px;
+        }
+
+        .logo-text span:nth-child(1) { color: #ff6b81; }
+        .logo-text span:nth-child(2) { color: #ffa502; }
+        .logo-text span:nth-child(3) { color: #2ed573; }
+        .logo-text span:nth-child(4) { color: #1e90ff; }
+        .logo-text span:nth-child(5) { color: #ff4757; }
+        .logo-text span:nth-child(6) { color: #3742fa; }
+        .logo-text span:nth-child(7) { color: #2f3542; }
+
+        .app-subtitle {
+            font-size: 0.75rem;
+            color: #666;
+            font-weight: bold;
+            letter-spacing: 2px;
+            background: #eee;
+            padding: 4px 12px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        /* 選択ボタンエリア */
+        .select-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .select-btn {
+            flex: 1;
+            border: none;
+            border-radius: 16px;
+            padding: 16px 8px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.1s;
+        }
+
+        .select-btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-bus {
+            background-color: #ffa502;
+        }
+
+        .btn-subway {
+            background-color: #70a1ff;
+        }
+
+        /* 日時表示バー */
+        .datetime-bar {
+            background-color: #54a0ff;
+            color: #fff;
+            text-align: center;
+            padding: 12px;
+            border-radius: 12px;
+            font-size: 1.05rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* 路線図カードエリア */
+        .map-card {
+            background-color: #fff;
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .map-card.bus {
+            border: 2px solid #ffcc5c;
+        }
+
+        .map-card.subway {
+            border: 2px solid #a3cb38;
+        }
+
+        .map-title {
+            font-size: 0.95rem;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            color: #333;
+        }
+
+        /* 路線図画像のプレースホルダー（後から画像を入れる空白スペース） */
+        .map-placeholder {
+            width: 100%;
+            height: 220px;
+            background-color: #f7f9fa;
+            border: 2px dashed #dcdde1;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #a4b0be;
+            font-size: 0.85rem;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- コントロールパネル -->
-    <div class="controls">
-        <select id="routeSelect">
-            <option value="bus_sangen_to_jirou">🚌 三軒屋 → 次郎丸駅前</option>
-            <option value="bus_jirou_to_sangen">🚌 次郎丸駅前 → 三軒屋</option>
-            <option value="subway_jirou_to_hakata">🚇 次郎丸 → 博多</option>
-            <option value="subway_jirou_to_hashimoto">🚇 次郎丸 → 橋本</option>
-            <option value="subway_hashimoto_to_jirou">🚇 橋本 → 次郎丸</option>
-        </select>
+    <!-- ヘッダー -->
+    <header>
+        <div class="logo-area">
+            🚌 
+            <div class="logo-text">
+                <span>M</span><span>Y</span> <span>T</span><span>R</span><span>A</span><span>N</span><span>S</span><span>I</span><span>T</span>
+            </div>
+            🦒
+        </div>
+        <div class="app-subtitle">TRANSPORTATION APP</div>
+    </header>
 
-        <select id="daySelect">
-            <option value="weekday">平日</option>
-            <option value="saturday">土曜</option>
-            <option value="holiday">日祝</option>
-        </select>
+    <!-- 選択ボタン -->
+    <div class="select-buttons">
+        <button class="select-btn btn-bus" onclick="location.href='bus_select.html'">
+            🚌 バス停から選択
+        </button>
+        <button class="select-btn btn-subway" onclick="location.href='subway_select.html'">
+            🚇 地下鉄から選択
+        </button>
     </div>
 
-    <!-- 時刻表表示エリア -->
-    <div class="timetable-list" id="timetableList">
-        <!-- ここにJavaScriptでデータが展開されます -->
+    <!-- 現在日時表示 -->
+    <div class="datetime-bar" id="datetimeBar">
+        読み込み中...
+    </div>
+
+    <!-- 西鉄バス路線図カード -->
+    <div class="map-card bus">
+        <div class="map-title">🚌 西鉄バス路線図</div>
+        <!-- 路線図画像が入る空白スペース（後から img タグ等に変更可能） -->
+        <div class="map-placeholder">
+            路線図画像スペース<br>(ここに画像ファイルを追加します)
+        </div>
+    </div>
+
+    <!-- 福岡市地下鉄路線図カード -->
+    <div class="map-card subway">
+        <div class="map-title">🚇 福岡市地下鉄 路線図</div>
+        <!-- 路線図画像が入る空白スペース -->
+        <div class="map-placeholder">
+            路線図画像スペース<br>(ここに画像ファイルを追加します)
+        </div>
     </div>
 </div>
 
 <script>
-    const routeSelect = document.getElementById('routeSelect');
-    const daySelect = document.getElementById('daySelect');
-    const timetableList = document.getElementById('timetableList');
+    // 現在日時をリアルタイムで更新して表示するスクリプト
+    function updateDateTime() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = now.getMonth() + 1;
+        const date = now.getDate();
+        const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
+        const day = dayNames[now.getDay()];
+        
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
 
-    // GitHub上のファイル構成に合わせたファイル名生成ルール
-    // 例: bus_sangen_to_jirou + _ + saturday + .json
-    async function fetchTimetable() {
-        const route = routeSelect.value;
-        const day = daySelect.value;
-        const fileName = `${route}_${day}.json`;
-
-        timetableList.innerHTML = '<div class="loading">データを読み込み中...</div>';
-
-        try {
-            // ローカル、またはGitHub Pages等の同階層にあるJSONを取得
-            const response = await fetch(fileName);
-            
-            if (!response.ok) {
-                throw new Error('ファイルの取得に失敗しました');
-            }
-
-            const data = await response.json();
-            renderTimetable(data);
-
-        } catch (error) {
-            console.error('Error:', error);
-            timetableList.innerHTML = `<div class="error-msg">データが見つかりません。<br>(${fileName})</div>`;
-        }
+        const formattedString = `${year}年${month}月${date}日(${day}) ${hours}:${minutes}:${seconds}`;
+        document.getElementById('datetimeBar').textContent = formattedString;
     }
 
-    function renderTimetable(data) {
-        timetableList.innerHTML = '';
-
-        if (!data || data.length === 0) {
-            timetableList.innerHTML = '<div class="error-msg">該当する便がありません。</div>';
-            return;
-        }
-
-        data.forEach(item => {
-            // バスか地下鉄かで表示項目を少し調整可能
-            const routeName = item.route || item.destination; // 系統番号が無い場合は行先などを表示
-            
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.innerHTML = `
-                <div class="card-left">
-                    <div class="route-badge">${routeName}</div>
-                    <div style="font-size: 0.85rem; color: var(--text-sub);">行先: ${item.destination}</div>
-                </div>
-                <div class="time-info">
-                    <div class="departure-time">${item.departure} 発</div>
-                    <div class="arrival-time">${item.arrival} 着</div>
-                </div>
-            `;
-            timetableList.appendChild(card);
-        });
-    }
-
-    // セレクトボックスが変更されたらデータを再取得
-    routeSelect.addEventListener('change', fetchTimetable);
-    daySelect.addEventListener('change', fetchTimetable);
-
-    // 初回読み込み時の実行
-    fetchTimetable();
+    // 初回実行 & 1秒ごとに更新
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
 </script>
 
 </body>
