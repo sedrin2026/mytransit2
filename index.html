@@ -186,6 +186,13 @@
         .map-card.bus { border: 2px solid #ffcc5c; }
         .map-card.subway { border: 2px solid #a3cb38; }
         .map-title { font-size: 0.85rem; font-weight: bold; text-align: center; color: #333; }
+        
+        /* 西鉄バス路線図の画像を縮小して地下鉄路線図の見切れを防ぐ調整 */
+        .map-card.bus .map-img {
+            max-height: 180px;
+            object-fit: contain;
+        }
+
         .map-img { width: 100%; height: auto; border-radius: 8px; display: block; }
 
         /* 検索結果エリア */
@@ -508,7 +515,6 @@
             let dest = item.destination || item.dest || '各方面';
             let rt = item.route || item.bus_no || '1';
 
-            // 【修正箇所】 item.departure を最優先でチェックし、"HH:MM" 形式から hour と minute を正しく分割・取得する
             if (item.departure !== undefined) {
                 const parts = String(item.departure).split(':');
                 if (parts.length === 2) {
