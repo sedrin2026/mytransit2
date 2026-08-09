@@ -1,5 +1,4 @@
 
-[✓]
 const CACHE_NAME = 'my-transit-cache-v1';
 const urlsToCache = [
   './index.html',
