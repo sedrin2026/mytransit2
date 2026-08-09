@@ -27,39 +27,22 @@
             gap: 8px;
         }
 
-        /* ヘッダー部分 */
+        /* ヘッダー部分：ボタン上までの余白にバナーを画面いっぱいに収める */
         header {
-            text-align: center;
-            padding: 2px 0;
+            width: 100%;
+            height: 60px; /* 余白スペースの高さ */
             display: flex;
-            flex-direction: column;
             align-items: center;
-            gap: 4px;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 12px;
         }
 
-        /* ロゴ等を削除し、header-banner.pngを余白・レイアウト内に収まるよう調整 */
         .header-banner {
-            max-width: 100%;
-            height: auto;
-            max-height: 48px;
-            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 左右上下の余白に画面いっぱいに収める */
             display: block;
-        }
-
-        .app-subtitle {
-            font-size: 0.65rem;
-            color: #666;
-            font-weight: bold;
-            letter-spacing: 2px;
-            background: #eee;
-            padding: 2px 10px;
-            border-radius: 10px;
-            display: inline-block;
-        }
-
-        /* ロゴ下の余白（ボタン縦幅の半分程度） */
-        .header-spacer {
-            height: 20px; 
         }
 
         /* 選択ボタンエリア */
@@ -300,14 +283,10 @@
 <body>
 
 <div class="container">
-    <!-- ヘッダー -->
+    <!-- ヘッダー（バナー画像を余白に画面いっぱいに配置） -->
     <header>
         <img src="header-banner.png" alt="HEADER BANNER" class="header-banner">
-        <div class="app-subtitle">TRANSPORTATION APP</div>
     </header>
-
-    <!-- ロゴ下の余白 -->
-    <div class="header-spacer"></div>
 
     <!-- 選択ボタン -->
     <div class="select-buttons">
