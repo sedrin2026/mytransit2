@@ -389,28 +389,286 @@
     let currentMasterData = [];
     let currentSelectedValue = '';
     let timerInterval = null;
-    let holidayList = [];
-
-    async function loadHolidays() {
-        try {
-            const res = await fetch('./holidays.json');
-            holidayList = await res.json();
-        } catch (e) {
-            console.warn('祝日データの読み込みに失敗:', e);
-        }
-    }
-
-    function getDayType(date) {
-        const y = date.getFullYear();
-        const m = String(date.getMonth() + 1).padStart(2, '0');
-        const d = String(date.getDate()).padStart(2, '0');
-        const dateStr = `${y}-${m}-${d}`;
-
-        if (holidayList.includes(dateStr)) return 'holiday';
-        if (date.getDay() === 0) return 'holiday';
-        if (date.getDay() === 6) return 'saturday';
-        return 'weekday';
-    }
 
     function togglePanel(type) {
         const busPanel = document.getElementById('busPanel');
+        const subwayPanel = document.getElementById('subwayPanel');
+
+        if (type === 'bus') {
+            const willActive = !busPanel.classList.contains('active');
+            busPanel.classList.toggle('active', willActive);
+            subwayPanel.classList.remove('active');
+        } else if (type === 'subway') {
+            const willActive = !subwayPanel.classList.contains('active');
+            subwayPanel.classList.toggle('active', willActive);
+            busPanel.classList.remove('active');
+        }
+    }
+
+    function clearSelection() {
+        document.querySelectorAll('input[name="transitSelect"]').forEach(el => el.checked = false);
+        document.getElementById('busPanel').classList.remove('active');
+        document.getElementById('subwayPanel').classList.remove('active');
+        document.getElementById('busResultBanner').classList.remove('active');
+        document.getElementById('subwayResultBanner').classList.remove('active');
+        document.getElementById('candidatesSection').classList.remove('active');
+        document.getElementById('mapSection').classList.remove('hidden');
+        currentMasterData = [];
+        currentSelectedValue = '';
+        if (timerInterval) clearInterval(timerInterval);
+    }
+
+    function toggleCalendar() {
+        const calendarPanel = document.getElementById('calendarPanel');
+        const mapSection = document.getElementById('mapSection');
+        const candidatesActive = document.getElementById('candidatesSection').classList.contains('active');
+
+        calendarPanel.classList.toggle('active');
+        if (!candidatesActive) {
+            mapSection.classList.toggle('hidden');
+        }
+    }
+
+    async function loadTimetable(radio) {
+        const value = radio.value;
+        currentSelectedValue = value;
+        const isBus = value.startsWith('bus');
+        
+        document.getElementById('busResultBanner').classList.toggle('active', isBus);
+        document.getElementById('subwayResultBanner').classList.toggle('active', !isBus);
+        
+        let labelText = radio.parentElement.textContent.trim();
+        if (!isBus) {
+            if (value === 'subway_hashimoto_to_jirou') labelText = '橋本駅 → 次郎丸駅';
+            else if (value === 'subway_jirou_to_hashimoto') labelText = '次郎丸駅 → 橋本駅';
+            else if (value === 'subway_jirou_to_hakata') labelText = '次郎丸駅 → 博多駅';
+        }
+
+        if (isBus) {
+            document.getElementById('busResultText').textContent = labelText;
+        } else {
+            document.getElementById('subwayResultText').textContent = labelText;
+        }
+
+        document.getElementById('mapSection').classList.add('hidden');
+        document.getElementById('candidatesSection').classList.add('active');
+
+        const now = new Date();
+        const dayOfWeek = now.getDay();
+        let dayType = 'weekday';
+        if (dayOfWeek === 6) dayType = 'saturday';
+        if (dayOfWeek === 0) dayType = 'holiday';
+
+        const jsonFileName = `./${value}_${dayType}.json`;
+        const fallbackFileName = `./${value}_weekday.json`;
+
+        try {
+            let response = await fetch(jsonFileName);
+            if (!response.ok) {
+                response = await fetch(fallbackFileName);
+            }
+            if (!response.ok) {
+                throw new Error(`HTTPエラー! ステータス: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            currentMasterData = parseTimetableData(data);
+            updateCandidates();
+            
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(updateCandidates, 1000);
+        } catch (error) {
+            console.error("時刻表読み込みエラー:", error);
+            document.getElementById('candidatesSection').innerHTML = `
+                <div class="candidate-card" style="text-align:center; color:red; padding:15px;">
+                    <b>時刻表データの読み込みに失敗しました</b><br>
+                    <small style="color:#555; word-break:break-all; margin-top:5px; display:block;">対象ファイル: ${jsonFileName}</small>
+                    <small style="color:red; margin-top:3px; display:block;">${error.message}</small>
+                </div>`;
+        }
+    }
+
+    function parseTimetableData(jsonData) {
+        let list = [];
+        if (Array.isArray(jsonData)) {
+            list = jsonData;
+        } else if (jsonData.timetable && Array.isArray(jsonData.timetable)) {
+            list = jsonData.timetable;
+        } else {
+            for (let hour in jsonData) {
+                if (hour === 'timetable') continue;
+                let minutes = jsonData[hour];
+                if (Array.isArray(minutes)) {
+                    minutes.forEach(item => {
+                        if (typeof item === 'object' && item !== null) {
+                            list.push({ 
+                                hour: hour, 
+                                minute: item.minute || item.time || '', 
+                                departure: item.departure, 
+                                destination: item.destination || '行先', 
+                                route: item.route || '1' 
+                            });
+                        } else {
+                            list.push({ hour: hour, minute: item, destination: '行先', route: '1' });
+                        }
+                    });
+                }
+            }
+        }
+        
+        return list.map(item => {
+            let h = item.hour !== undefined ? String(item.hour).padStart(2, '0') : '';
+            let m = '';
+            let dest = item.destination || item.dest || '各方面';
+            let rt = item.route || item.bus_no || '1';
+
+            if (item.departure !== undefined) {
+                const parts = String(item.departure).split(':');
+                if (parts.length === 2) {
+                    h = parts[0].padStart(2, '0');
+                    m = parts[1].padStart(2, '0');
+                }
+            } else if (item.minute !== undefined) {
+                m = String(item.minute).padStart(2, '0');
+            } else if (item.time !== undefined) {
+                const parts = String(item.time).split(':');
+                if (parts.length === 2) {
+                    h = parts[0].padStart(2, '0');
+                    m = parts[1].padStart(2, '0');
+                }
+            }
+            return { hour: h, minute: m, destination: dest, route: rt };
+        }).filter(item => item.hour !== '' && item.minute !== '');
+    }
+
+    function updateCandidates() {
+        if (!currentMasterData || currentMasterData.length === 0) return;
+
+        const now = new Date();
+        const currentTotalSeconds = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+
+        let upcoming = currentMasterData.map(item => {
+            let h = parseInt(item.hour, 10);
+            let m = parseInt(item.minute, 10);
+            let totalSec = h * 3600 + m * 60;
+            return { ...item, totalSec, h, m, isNextDay: false };
+        }).filter(item => {
+            return item.totalSec >= currentTotalSeconds;
+        });
+
+        upcoming.sort((a, b) => a.totalSec - b.totalSec);
+
+        let top5 = upcoming.slice(0, 5);
+        
+        if (top5.length < 5) {
+            let allSorted = [...currentMasterData].map(item => {
+                let h = parseInt(item.hour, 10);
+                let m = parseInt(item.minute, 10);
+                let totalSec = h * 3600 + m * 60;
+                return { ...item, totalSec, h, m, isNextDay: true };
+            });
+            allSorted.sort((a, b) => a.totalSec - b.totalSec);
+
+            let needed = 5 - top5.length;
+            let nextDayItems = allSorted.slice(0, needed);
+            top5 = [...top5, ...nextDayItems];
+        }
+
+        const container = document.getElementById('candidatesSection');
+        if (top5.length === 0) {
+            container.innerHTML = `<div class="candidate-card" style="text-align:center;">有効な運行便データがありません</div>`;
+            return;
+        }
+
+        let html = '';
+        top5.forEach((item, index) => {
+            let targetDate = new Date(now);
+            if (item.isNextDay) {
+                targetDate.setDate(targetDate.getDate() + 1);
+            }
+            targetDate.setHours(item.h, item.m, 0, 0);
+
+            let diffSec = Math.floor((targetDate - now) / 1000);
+            
+            let timeLeftStr = '';
+            if (diffSec < 60) {
+                timeLeftStr = `あと数秒`;
+            } else if (diffSec < 3600) {
+                let m = Math.floor(diffSec / 60);
+                timeLeftStr = `あと${m}分`;
+            } else if (diffSec < 86400) {
+                let h = Math.floor(diffSec / 3600);
+                let m = Math.floor((diffSec % 3600) / 60);
+                timeLeftStr = `あと${h}時間${m}分`;
+            } else {
+                let d = Math.floor(diffSec / 86400);
+                let h = Math.floor((diffSec % 86400) / 3600);
+                timeLeftStr = `あと${d}日${h}時間`;
+            }
+
+            let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
+            
+            // ★ バスなら+6分、地下鉄なら+1分を自動切替して到着時刻を計算
+            let addMinutes = currentSelectedValue.startsWith('bus') ? 6 : 1;
+            let arrivalDate = new Date(targetDate.getTime());
+            arrivalDate.setMinutes(arrivalDate.getMinutes() + addMinutes);
+            let arrivalFormatted = String(arrivalDate.getHours()).padStart(2, '0') + ':' + String(arrivalDate.getMinutes()).padStart(2, '0');
+
+            let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
+            
+            html += `
+                <div class="candidate-card">
+                    <div class="candidate-header-row">
+                        <div>
+                            <span class="candidate-badge rank-${index}">第${index + 1}候補</span>
+                            ${nextDayBadge}
+                        </div>
+                        <span class="time-left-badge time-left-${index}">${timeLeftStr}</span>
+                    </div>
+                    <div class="candidate-main-row">
+                        <span class="dot-marker dot-${index}">●</span>
+                        <span class="time-display">${timeFormatted}</span>
+                        <span class="arrival-display">→ ${arrivalFormatted} 到着</span>
+                    </div>
+                    <div class="route-info">
+                        <span class="route-number-badge">${item.route}</span>
+                        <span>行先: ${item.destination}</span>
+                    </div>
+                </div>
+            `;
+        });
+        container.innerHTML = html;
+    }
+
+    function updateDateTime() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = now.getMonth() + 1;
+        const date = now.getDate();
+        const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
+        const day = dayNames[now.getDay()];
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+
+        document.getElementById('datetimeBar').textContent = `${year}年${month}月${date}日(${day}) ${hours}:${minutes}:${seconds}`;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+</script>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => {
+            console.log('MY TRANSIT 2: ServiceWorker 登録成功:', reg.scope);
+          })
+          .catch((err) => {
+            console.log('MY TRANSIT 2: ServiceWorker 登録失敗:', err);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
