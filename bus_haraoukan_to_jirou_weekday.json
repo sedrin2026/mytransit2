@@ -1,0 +1,965 @@
+[
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "07:03",
+    "arrival": "07:13",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "07:47",
+    "arrival": "07:57",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "08:11",
+    "arrival": "08:21",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "08:31",
+    "arrival": "08:41",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "08:47",
+    "arrival": "08:57",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "08:49",
+    "arrival": "08:59",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:08",
+    "arrival": "09:18",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:12",
+    "arrival": "09:22",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "09:16",
+    "arrival": "09:26",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:19",
+    "arrival": "09:29",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:33",
+    "arrival": "09:43",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "09:33",
+    "arrival": "09:43",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "09:43",
+    "arrival": "09:53",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:52",
+    "arrival": "10:02",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:00",
+    "arrival": "10:10",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "10:05",
+    "arrival": "10:15",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "10:24",
+    "arrival": "10:34",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "10:25",
+    "arrival": "10:35",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:28",
+    "arrival": "10:38",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "10:33",
+    "arrival": "10:43",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "10:45",
+    "arrival": "10:55",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "10:52",
+    "arrival": "11:02",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:02",
+    "arrival": "11:12",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "11:03",
+    "arrival": "11:13",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:17",
+    "arrival": "11:27",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "11:24",
+    "arrival": "11:34",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:27",
+    "arrival": "11:37",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:36",
+    "arrival": "11:46",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "11:38",
+    "arrival": "11:48",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "11:44",
+    "arrival": "11:54",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "11:57",
+    "arrival": "12:07",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:02",
+    "arrival": "12:12",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "12:04",
+    "arrival": "12:14",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:13",
+    "arrival": "12:23",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "12:34",
+    "arrival": "12:44",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:37",
+    "arrival": "12:47",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:48",
+    "arrival": "12:58",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "12:57",
+    "arrival": "13:07",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "13:14",
+    "arrival": "13:24",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:22",
+    "arrival": "13:32",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "13:23",
+    "arrival": "13:33",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "13:34",
+    "arrival": "13:44",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "13:47",
+    "arrival": "13:57",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "13:53",
+    "arrival": "14:03",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "13:54",
+    "arrival": "14:04",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "14:02",
+    "arrival": "14:12",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "14:21",
+    "arrival": "14:31",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:33",
+    "arrival": "14:43",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "14:34",
+    "arrival": "14:44",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:42",
+    "arrival": "14:52",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "14:55",
+    "arrival": "15:05",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:13",
+    "arrival": "15:23",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "15:14",
+    "arrival": "15:24",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:27",
+    "arrival": "15:37",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "15:34",
+    "arrival": "15:44",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "15:48",
+    "arrival": "15:58",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:53",
+    "arrival": "16:03",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "15:57",
+    "arrival": "16:07",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "16:14",
+    "arrival": "16:24",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:27",
+    "arrival": "16:37",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "16:28",
+    "arrival": "16:38",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "16:33",
+    "arrival": "16:43",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "17:00",
+    "arrival": "17:10",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:13",
+    "arrival": "17:23",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:17",
+    "arrival": "17:27",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "17:20",
+    "arrival": "17:30",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "17:30",
+    "arrival": "17:40",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "17:36",
+    "arrival": "17:46",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:50",
+    "arrival": "18:00",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "17:52",
+    "arrival": "18:02",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "18:00",
+    "arrival": "18:10",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:01",
+    "arrival": "18:11",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "18:06",
+    "arrival": "18:16",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:14",
+    "arrival": "18:24",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "18:20",
+    "arrival": "18:30",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:26",
+    "arrival": "18:36",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "18:36",
+    "arrival": "18:46",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "18:39",
+    "arrival": "18:49",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "18:56",
+    "arrival": "19:06",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:01",
+    "arrival": "19:11",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "19:03",
+    "arrival": "19:13",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:09",
+    "arrival": "19:19",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:21",
+    "arrival": "19:31",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:26",
+    "arrival": "19:36",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "19:31",
+    "arrival": "19:41",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:39",
+    "arrival": "19:49",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:40",
+    "arrival": "19:50",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "19:52",
+    "arrival": "20:02",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:01",
+    "arrival": "20:11",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:04",
+    "arrival": "20:14",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "20:07",
+    "arrival": "20:17",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "20:12",
+    "arrival": "20:22",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "20:26",
+    "arrival": "20:36",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "20:32",
+    "arrival": "20:42",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "20:49",
+    "arrival": "20:59",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "21:03",
+    "arrival": "21:13",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "21:06",
+    "arrival": "21:16",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "21:22",
+    "arrival": "21:32",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "21:24",
+    "arrival": "21:34",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "21:40",
+    "arrival": "21:50",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "2",
+    "type": "普通",
+    "departure": "21:57",
+    "arrival": "22:07",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "21:58",
+    "arrival": "22:08",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "22:41",
+    "arrival": "22:51",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "22:45",
+    "arrival": "22:55",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "19",
+    "type": "普通",
+    "departure": "23:09",
+    "arrival": "23:19",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "201",
+    "type": "普通",
+    "departure": "23:36",
+    "arrival": "23:46",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "23:45",
+    "arrival": "23:55",
+    "from": "原往還",
+    "to": "次郎丸",
+    "destination": "次郎丸"
+  }
+]
