@@ -320,7 +320,7 @@
             <input type="radio" name="transitSelect" value="bus_sangen_to_jirou" onchange="loadTimetable(this)"> 三軒屋 → 次郎丸
         </label>
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="bus_jirou_to_sangen" onchange="loadTimetable(this)"> 次郎丸 → 三軒屋
+            <input type="radio" name="transitSelect" value="bus_jirou_to_sangen" onchange="次郎丸 → 三軒屋"> 次郎丸 → 三軒屋
         </label>
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_nagao_to_fukudaimae" onchange="loadTimetable(this)"> 長尾5丁目 → 福大前
@@ -517,10 +517,11 @@
                                 minute: item.minute || item.time || '', 
                                 departure: item.departure, 
                                 destination: item.destination || '行先', 
-                                route: item.route || '1' 
+                                route: item.route || '1',
+                                arrival: item.arrival || ''
                             });
                         } else {
-                            list.push({ hour: hour, minute: item, destination: '行先', route: '1' });
+                            list.push({ hour: hour, minute: item, destination: '行先', route: '1', arrival: '' });
                         }
                     });
                 }
@@ -532,6 +533,7 @@
             let m = '';
             let dest = item.destination || item.dest || '各方面';
             let rt = item.route || item.bus_no || '1';
+            let arr = item.arrival || '';
 
             if (item.departure !== undefined) {
                 const parts = String(item.departure).split(':');
@@ -548,7 +550,7 @@
                     m = parts[1].padStart(2, '0');
                 }
             }
-            return { hour: h, minute: m, destination: dest, route: rt };
+            return { hour: h, minute: m, destination: dest, route: rt, arrival: arr };
         }).filter(item => item.hour !== '' && item.minute !== '');
     }
 
@@ -619,10 +621,8 @@
 
             let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
             
-            let addMinutes = currentSelectedValue.startsWith('bus') ? 6 : 1;
-            let arrivalDate = new Date(targetDate.getTime());
-            arrivalDate.setMinutes(arrivalDate.getMinutes() + addMinutes);
-            let arrivalFormatted = String(arrivalDate.getHours()).padStart(2, '0') + ':' + String(arrivalDate.getMinutes()).padStart(2, '0');
+            // 修正箇所: JSONの到着時刻を使用
+            let arrivalFormatted = item.arrival || "--:--";
 
             let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
             
