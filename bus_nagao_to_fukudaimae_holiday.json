@@ -1,0 +1,524 @@
+[
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:15",
+    "arrival": "06:21",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:55",
+    "arrival": "07:01",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:32",
+    "arrival": "07:38",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:35",
+    "arrival": "07:41",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:05",
+    "arrival": "08:11",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:12",
+    "arrival": "08:18",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:34",
+    "arrival": "08:40",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:52",
+    "arrival": "08:58",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:04",
+    "arrival": "09:10",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:29",
+    "arrival": "09:35",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:34",
+    "arrival": "09:40",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:04",
+    "arrival": "10:10",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:04",
+    "arrival": "10:10",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:34",
+    "arrival": "10:40",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:34",
+    "arrival": "10:40",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:04",
+    "arrival": "11:10",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:04",
+    "arrival": "11:10",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:34",
+    "arrival": "11:40",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:42",
+    "arrival": "11:48",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:04",
+    "arrival": "12:10",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:12",
+    "arrival": "12:18",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:39",
+    "arrival": "12:45",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:42",
+    "arrival": "12:48",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:12",
+    "arrival": "13:18",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:14",
+    "arrival": "13:20",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:42",
+    "arrival": "13:48",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:44",
+    "arrival": "13:50",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:14",
+    "arrival": "14:20",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:17",
+    "arrival": "14:23",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:44",
+    "arrival": "14:50",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:52",
+    "arrival": "14:58",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:14",
+    "arrival": "15:20",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:25",
+    "arrival": "15:31",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:44",
+    "arrival": "15:50",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:55",
+    "arrival": "16:01",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:14",
+    "arrival": "16:20",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:25",
+    "arrival": "16:31",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:44",
+    "arrival": "16:50",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:56",
+    "arrival": "17:02",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:14",
+    "arrival": "17:20",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:26",
+    "arrival": "17:32",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:49",
+    "arrival": "17:55",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:56",
+    "arrival": "18:02",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "18:24",
+    "arrival": "18:30",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "18:24",
+    "arrival": "18:30",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "18:50",
+    "arrival": "18:56",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:00",
+    "arrival": "19:06",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:25",
+    "arrival": "19:31",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:35",
+    "arrival": "19:41",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:56",
+    "arrival": "20:02",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:10",
+    "arrival": "20:16",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:36",
+    "arrival": "20:42",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:56",
+    "arrival": "21:02",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "21:06",
+    "arrival": "21:12",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "21:37",
+    "arrival": "21:43",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "21:41",
+    "arrival": "21:47",
+    "from": "長尾五丁目",
+    "to": "博多駅",
+    "destination": "博多駅"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "22:17",
+    "arrival": "22:23",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "22:57",
+    "arrival": "23:03",
+    "from": "長尾五丁目",
+    "to": "福大前営業所",
+    "destination": "福大前営業所"
+  }
+]
