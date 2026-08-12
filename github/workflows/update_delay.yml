@@ -1,0 +1,29 @@
+name: Update Delay Data
+
+on:
+  schedule:
+    # 30分おきに自動で実行する設定（テスト用）
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # 手動でも動かせるようにするボタン
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: ダミーの遅延データをランダムまたは固定で生成して書き換える
+        run: |
+          # テストとして、今回はランダムな遅延分（例: 0分、3分、5分など）を delay.json に書き込むスクリプト
+          DELAY_VAL=$(( (RANDOM % 4) * 3 )) # 0, 3, 6, 9 のいずれか
+          echo "{\"delayMinutes\": $DELAY_VAL}" > delay.json
+          cat delay.json
+
+      - name: 変更をGitHubに自動保存（コミット＆プッシュ）する
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add delay.json
+          git commit -m "Auto-update delay.json via GitHub Actions" || echo "No changes to commit"
+          git push
