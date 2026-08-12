@@ -1,0 +1,668 @@
+[
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "08:07",
+        "arrival": "08:07",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "08:49",
+        "arrival": "08:49",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:08",
+        "arrival": "09:08",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:12",
+        "arrival": "09:12",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:19",
+        "arrival": "09:19",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:33",
+        "arrival": "09:33",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:42",
+        "arrival": "09:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:43",
+        "arrival": "09:43",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "09:52",
+        "arrival": "09:52",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "10:00",
+        "arrival": "10:00",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "10:17",
+        "arrival": "10:17",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "10:28",
+        "arrival": "10:28",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "10:52",
+        "arrival": "10:52",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "11:03",
+        "arrival": "11:03",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "11:17",
+        "arrival": "11:17",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "11:27",
+        "arrival": "11:27",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "11:38",
+        "arrival": "11:38",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "11:42",
+        "arrival": "11:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "12:02",
+        "arrival": "12:02",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "12:13",
+        "arrival": "12:13",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "12:22",
+        "arrival": "12:22",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "12:37",
+        "arrival": "12:37",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "12:48",
+        "arrival": "12:48",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "13:02",
+        "arrival": "13:02",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "13:22",
+        "arrival": "13:22",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "13:23",
+        "arrival": "13:23",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "13:42",
+        "arrival": "13:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "13:53",
+        "arrival": "13:53",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "14:02",
+        "arrival": "14:02",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "14:22",
+        "arrival": "14:22",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "14:33",
+        "arrival": "14:33",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "14:42",
+        "arrival": "14:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "14:57",
+        "arrival": "14:57",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "15:13",
+        "arrival": "15:13",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "15:27",
+        "arrival": "15:27",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "15:42",
+        "arrival": "15:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "15:53",
+        "arrival": "15:53",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "15:57",
+        "arrival": "15:57",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "16:17",
+        "arrival": "16:17",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "16:27",
+        "arrival": "16:27",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "16:33",
+        "arrival": "16:33",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "16:42",
+        "arrival": "16:42",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "17:13",
+        "arrival": "17:13",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "17:17",
+        "arrival": "17:17",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "17:46",
+        "arrival": "17:46",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "17:50",
+        "arrival": "17:50",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:01",
+        "arrival": "18:01",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:14",
+        "arrival": "18:14",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:16",
+        "arrival": "18:16",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:26",
+        "arrival": "18:26",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:39",
+        "arrival": "18:39",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "18:46",
+        "arrival": "18:46",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:01",
+        "arrival": "19:01",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:09",
+        "arrival": "19:09",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:16",
+        "arrival": "19:16",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:31",
+        "arrival": "19:31",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:39",
+        "arrival": "19:39",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "19:51",
+        "arrival": "19:51",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:01",
+        "arrival": "20:01",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:04",
+        "arrival": "20:04",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:16",
+        "arrival": "20:16",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:26",
+        "arrival": "20:26",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:41",
+        "arrival": "20:41",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "20:49",
+        "arrival": "20:49",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "21:06",
+        "arrival": "21:06",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "21:16",
+        "arrival": "21:16",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "21:24",
+        "arrival": "21:24",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "21:40",
+        "arrival": "21:40",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "21:58",
+        "arrival": "21:58",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "22:20",
+        "arrival": "22:20",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "22:45",
+        "arrival": "22:45",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "23:09",
+        "arrival": "23:09",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "23:15",
+        "arrival": "23:15",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    },
+    {
+        "route": "201",
+        "type": "普通",
+        "departure": "23:45",
+        "arrival": "23:45",
+        "from": "原往還",
+        "to": "金武営業所",
+        "destination": "金武営業所"
+    }
+]
