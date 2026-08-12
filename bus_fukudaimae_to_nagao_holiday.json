@@ -3,7 +3,7 @@
     "route": "16",
     "type": "普通",
     "departure": "06:06",
-    "arrival": "06:10",
+    "arrival": "06:16",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -12,7 +12,7 @@
     "route": "16",
     "type": "普通",
     "departure": "06:46",
-    "arrival": "06:50",
+    "arrival": "06:56",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -21,7 +21,7 @@
     "route": "16",
     "type": "普通",
     "departure": "07:22",
-    "arrival": "07:26",
+    "arrival": "07:32",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -30,7 +30,7 @@
     "route": "16",
     "type": "普通",
     "departure": "07:26",
-    "arrival": "07:30",
+    "arrival": "07:36",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -39,7 +39,7 @@
     "route": "16",
     "type": "普通",
     "departure": "07:41",
-    "arrival": "07:45",
+    "arrival": "07:51",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -48,7 +48,7 @@
     "route": "16",
     "type": "普通",
     "departure": "07:56",
-    "arrival": "08:00",
+    "arrival": "08:06",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -57,7 +57,7 @@
     "route": "16",
     "type": "普通",
     "departure": "08:12",
-    "arrival": "08:16",
+    "arrival": "08:22",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -66,7 +66,7 @@
     "route": "16",
     "type": "普通",
     "departure": "08:21",
-    "arrival": "08:25",
+    "arrival": "08:31",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -75,7 +75,7 @@
     "route": "16",
     "type": "普通",
     "departure": "08:25",
-    "arrival": "08:29",
+    "arrival": "08:35",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -84,7 +84,7 @@
     "route": "16",
     "type": "普通",
     "departure": "08:42",
-    "arrival": "08:46",
+    "arrival": "08:52",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -93,15 +93,6 @@
     "route": "16",
     "type": "普通",
     "departure": "08:55",
-    "arrival": "08:59",
-    "from": "福大前",
-    "to": "長尾五丁目",
-    "destination": "六本松方面"
-  },
-  {
-    "route": "16",
-    "type": "普通",
-    "departure": "09:01",
     "arrival": "09:05",
     "from": "福大前",
     "to": "長尾五丁目",
@@ -110,8 +101,17 @@
   {
     "route": "16",
     "type": "普通",
+    "departure": "09:01",
+    "arrival": "09:11",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "六本松方面"
+  },
+  {
+    "route": "16",
+    "type": "普通",
     "departure": "09:12",
-    "arrival": "09:16",
+    "arrival": "09:22",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -120,7 +120,7 @@
     "route": "16",
     "type": "普通",
     "departure": "09:25",
-    "arrival": "09:29",
+    "arrival": "09:35",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -129,15 +129,6 @@
     "route": "16",
     "type": "普通",
     "departure": "09:39",
-    "arrival": "09:43",
-    "from": "福大前",
-    "to": "長尾五丁目",
-    "destination": "六本松方面"
-  },
-  {
-    "route": "16",
-    "type": "普通",
-    "departure": "09:45",
     "arrival": "09:49",
     "from": "福大前",
     "to": "長尾五丁目",
@@ -146,8 +137,17 @@
   {
     "route": "16",
     "type": "普通",
+    "departure": "09:45",
+    "arrival": "09:55",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "六本松方面"
+  },
+  {
+    "route": "16",
+    "type": "普通",
     "departure": "09:55",
-    "arrival": "09:59",
+    "arrival": "10:05",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -156,7 +156,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:14",
-    "arrival": "10:18",
+    "arrival": "10:24",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -165,7 +165,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:15",
-    "arrival": "10:19",
+    "arrival": "10:25",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -174,7 +174,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:25",
-    "arrival": "10:29",
+    "arrival": "10:35",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -183,7 +183,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:44",
-    "arrival": "10:48",
+    "arrival": "10:54",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -192,7 +192,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:45",
-    "arrival": "10:49",
+    "arrival": "10:55",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -201,7 +201,7 @@
     "route": "16",
     "type": "普通",
     "departure": "10:55",
-    "arrival": "10:59",
+    "arrival": "11:05",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -210,7 +210,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:14",
-    "arrival": "11:18",
+    "arrival": "11:24",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -219,7 +219,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:15",
-    "arrival": "11:19",
+    "arrival": "11:25",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -228,7 +228,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:25",
-    "arrival": "11:29",
+    "arrival": "11:35",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -237,7 +237,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:43",
-    "arrival": "11:47",
+    "arrival": "11:53",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -246,7 +246,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:52",
-    "arrival": "11:56",
+    "arrival": "12:02",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -255,7 +255,7 @@
     "route": "16",
     "type": "普通",
     "departure": "11:55",
-    "arrival": "11:59",
+    "arrival": "12:05",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -264,7 +264,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:08",
-    "arrival": "12:12",
+    "arrival": "12:18",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -273,7 +273,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:22",
-    "arrival": "12:26",
+    "arrival": "12:32",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -282,7 +282,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:30",
-    "arrival": "12:34",
+    "arrival": "12:40",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -291,7 +291,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:33",
-    "arrival": "12:37",
+    "arrival": "12:43",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -300,7 +300,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:52",
-    "arrival": "12:56",
+    "arrival": "13:02",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -309,7 +309,7 @@
     "route": "16",
     "type": "普通",
     "departure": "12:53",
-    "arrival": "12:57",
+    "arrival": "13:03",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -318,7 +318,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:05",
-    "arrival": "13:09",
+    "arrival": "13:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -327,7 +327,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:13",
-    "arrival": "13:17",
+    "arrival": "13:23",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -336,7 +336,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:22",
-    "arrival": "13:26",
+    "arrival": "13:32",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -345,7 +345,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:33",
-    "arrival": "13:37",
+    "arrival": "13:43",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -354,7 +354,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:35",
-    "arrival": "13:39",
+    "arrival": "13:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -363,7 +363,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:52",
-    "arrival": "13:56",
+    "arrival": "14:02",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -372,7 +372,7 @@
     "route": "16",
     "type": "普通",
     "departure": "13:53",
-    "arrival": "13:57",
+    "arrival": "14:03",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -381,7 +381,7 @@
     "route": "16",
     "type": "普通",
     "departure": "14:05",
-    "arrival": "14:09",
+    "arrival": "14:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -390,7 +390,7 @@
     "route": "16",
     "type": "普通",
     "departure": "14:18",
-    "arrival": "14:22",
+    "arrival": "14:28",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -399,7 +399,7 @@
     "route": "16",
     "type": "普通",
     "departure": "14:27",
-    "arrival": "14:31",
+    "arrival": "14:37",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -408,7 +408,7 @@
     "route": "16",
     "type": "普通",
     "departure": "14:35",
-    "arrival": "14:39",
+    "arrival": "14:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -417,7 +417,7 @@
     "route": "16",
     "type": "普通",
     "departure": "14:43",
-    "arrival": "14:47",
+    "arrival": "14:53",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -426,7 +426,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:02",
-    "arrival": "15:06",
+    "arrival": "15:12",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -435,7 +435,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:05",
-    "arrival": "15:09",
+    "arrival": "15:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -444,7 +444,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:09",
-    "arrival": "15:13",
+    "arrival": "15:19",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -453,7 +453,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:34",
-    "arrival": "15:38",
+    "arrival": "15:44",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -462,7 +462,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:35",
-    "arrival": "15:39",
+    "arrival": "15:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -471,7 +471,7 @@
     "route": "16",
     "type": "普通",
     "departure": "15:35",
-    "arrival": "15:39",
+    "arrival": "15:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -480,15 +480,6 @@
     "route": "16",
     "type": "普通",
     "departure": "15:59",
-    "arrival": "16:03",
-    "from": "福大前",
-    "to": "長尾五丁目",
-    "destination": "六本松方面"
-  },
-  {
-    "route": "16",
-    "type": "普通",
-    "departure": "16:05",
     "arrival": "16:09",
     "from": "福大前",
     "to": "長尾五丁目",
@@ -498,7 +489,16 @@
     "route": "16",
     "type": "普通",
     "departure": "16:05",
-    "arrival": "16:09",
+    "arrival": "16:15",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "六本松方面"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:05",
+    "arrival": "16:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -507,7 +507,7 @@
     "route": "16",
     "type": "普通",
     "departure": "16:24",
-    "arrival": "16:28",
+    "arrival": "16:34",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -516,7 +516,7 @@
     "route": "16",
     "type": "普通",
     "departure": "16:35",
-    "arrival": "16:39",
+    "arrival": "16:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -525,7 +525,7 @@
     "route": "16",
     "type": "普通",
     "departure": "16:35",
-    "arrival": "16:39",
+    "arrival": "16:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -534,7 +534,7 @@
     "route": "16",
     "type": "普通",
     "departure": "16:49",
-    "arrival": "16:53",
+    "arrival": "16:59",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -543,7 +543,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:05",
-    "arrival": "17:09",
+    "arrival": "17:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -552,7 +552,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:06",
-    "arrival": "17:10",
+    "arrival": "17:16",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -561,7 +561,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:16",
-    "arrival": "17:20",
+    "arrival": "17:26",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -570,7 +570,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:36",
-    "arrival": "17:40",
+    "arrival": "17:46",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -579,7 +579,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:39",
-    "arrival": "17:43",
+    "arrival": "17:49",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -588,7 +588,7 @@
     "route": "16",
     "type": "普通",
     "departure": "17:40",
-    "arrival": "17:44",
+    "arrival": "17:50",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -597,7 +597,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:04",
-    "arrival": "18:08",
+    "arrival": "18:14",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -606,7 +606,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:06",
-    "arrival": "18:10",
+    "arrival": "18:16",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -615,7 +615,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:15",
-    "arrival": "18:19",
+    "arrival": "18:25",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -624,7 +624,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:30",
-    "arrival": "18:34",
+    "arrival": "18:40",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -633,7 +633,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:34",
-    "arrival": "18:38",
+    "arrival": "18:44",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -642,7 +642,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:51",
-    "arrival": "18:55",
+    "arrival": "19:01",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -651,7 +651,7 @@
     "route": "16",
     "type": "普通",
     "departure": "18:56",
-    "arrival": "19:00",
+    "arrival": "19:06",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -660,7 +660,7 @@
     "route": "16",
     "type": "普通",
     "departure": "19:00",
-    "arrival": "19:04",
+    "arrival": "19:10",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -669,7 +669,7 @@
     "route": "16",
     "type": "普通",
     "departure": "19:19",
-    "arrival": "19:23",
+    "arrival": "19:29",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -678,7 +678,7 @@
     "route": "16",
     "type": "普通",
     "departure": "19:26",
-    "arrival": "19:30",
+    "arrival": "19:36",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -687,7 +687,7 @@
     "route": "16",
     "type": "普通",
     "departure": "19:33",
-    "arrival": "19:37",
+    "arrival": "19:43",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -696,7 +696,7 @@
     "route": "16",
     "type": "普通",
     "departure": "19:35",
-    "arrival": "19:39",
+    "arrival": "19:45",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -705,15 +705,6 @@
     "route": "16",
     "type": "普通",
     "departure": "19:55",
-    "arrival": "19:59",
-    "from": "福大前",
-    "to": "長尾五丁目",
-    "destination": "六本松方面"
-  },
-  {
-    "route": "16",
-    "type": "普通",
-    "departure": "20:01",
     "arrival": "20:05",
     "from": "福大前",
     "to": "長尾五丁目",
@@ -722,8 +713,17 @@
   {
     "route": "16",
     "type": "普通",
+    "departure": "20:01",
+    "arrival": "20:11",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "六本松方面"
+  },
+  {
+    "route": "16",
+    "type": "普通",
     "departure": "20:05",
-    "arrival": "20:09",
+    "arrival": "20:15",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -732,7 +732,7 @@
     "route": "16",
     "type": "普通",
     "departure": "20:18",
-    "arrival": "20:22",
+    "arrival": "20:28",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -741,7 +741,7 @@
     "route": "16",
     "type": "普通",
     "departure": "20:43",
-    "arrival": "20:47",
+    "arrival": "20:53",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -750,7 +750,7 @@
     "route": "16",
     "type": "普通",
     "departure": "20:45",
-    "arrival": "20:49",
+    "arrival": "20:55",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -759,7 +759,7 @@
     "route": "16",
     "type": "普通",
     "departure": "20:47",
-    "arrival": "20:51",
+    "arrival": "20:57",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -768,7 +768,7 @@
     "route": "16",
     "type": "普通",
     "departure": "21:13",
-    "arrival": "21:17",
+    "arrival": "21:23",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -777,7 +777,7 @@
     "route": "16",
     "type": "普通",
     "departure": "21:15",
-    "arrival": "21:19",
+    "arrival": "21:25",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -786,7 +786,7 @@
     "route": "16",
     "type": "普通",
     "departure": "21:32",
-    "arrival": "21:36",
+    "arrival": "21:42",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -795,7 +795,7 @@
     "route": "16",
     "type": "普通",
     "departure": "21:43",
-    "arrival": "21:47",
+    "arrival": "21:53",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -804,7 +804,7 @@
     "route": "16",
     "type": "普通",
     "departure": "21:46",
-    "arrival": "21:50",
+    "arrival": "21:56",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -813,7 +813,7 @@
     "route": "16",
     "type": "普通",
     "departure": "22:13",
-    "arrival": "22:17",
+    "arrival": "22:23",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -822,7 +822,7 @@
     "route": "16",
     "type": "普通",
     "departure": "22:26",
-    "arrival": "22:30",
+    "arrival": "22:36",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -831,7 +831,7 @@
     "route": "16",
     "type": "普通",
     "departure": "22:58",
-    "arrival": "23:02",
+    "arrival": "23:08",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
@@ -840,7 +840,7 @@
     "route": "16",
     "type": "普通",
     "departure": "23:06",
-    "arrival": "23:10",
+    "arrival": "23:16",
     "from": "福大前",
     "to": "長尾五丁目",
     "destination": "六本松方面"
