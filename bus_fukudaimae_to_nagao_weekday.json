@@ -1,0 +1,398 @@
+[
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "05:41",
+    "arrival": "05:47",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:01",
+    "arrival": "06:07",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:21",
+    "arrival": "06:27",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:36",
+    "arrival": "06:42",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:48",
+    "arrival": "06:54",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "06:58",
+    "arrival": "07:04",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:08",
+    "arrival": "07:14",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:15",
+    "arrival": "07:21",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:24",
+    "arrival": "07:30",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:30",
+    "arrival": "07:36",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:36",
+    "arrival": "07:42",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "07:46",
+    "arrival": "07:52",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:02",
+    "arrival": "08:08",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:18",
+    "arrival": "08:24",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:39",
+    "arrival": "08:45",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "08:58",
+    "arrival": "09:04",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:22",
+    "arrival": "09:28",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "09:43",
+    "arrival": "09:49",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:04",
+    "arrival": "10:10",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:24",
+    "arrival": "10:30",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "10:44",
+    "arrival": "10:50",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:08",
+    "arrival": "11:14",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:33",
+    "arrival": "11:39",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "11:58",
+    "arrival": "12:04",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:19",
+    "arrival": "12:25",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "12:43",
+    "arrival": "12:49",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:07",
+    "arrival": "13:13",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:31",
+    "arrival": "13:37",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "13:56",
+    "arrival": "14:02",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:21",
+    "arrival": "14:27",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "14:46",
+    "arrival": "14:52",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:11",
+    "arrival": "15:17",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:31",
+    "arrival": "15:37",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "15:56",
+    "arrival": "16:02",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:16",
+    "arrival": "16:22",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "16:46",
+    "arrival": "16:52",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:06",
+    "arrival": "17:12",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:31",
+    "arrival": "17:37",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "17:55",
+    "arrival": "18:01",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "18:22",
+    "arrival": "18:28",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "18:55",
+    "arrival": "19:01",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "19:35",
+    "arrival": "19:41",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "20:36",
+    "arrival": "20:42",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  },
+  {
+    "route": "16",
+    "type": "普通",
+    "departure": "21:36",
+    "arrival": "21:42",
+    "from": "福大前",
+    "to": "長尾五丁目",
+    "destination": "長尾五丁目"
+  }
+]
