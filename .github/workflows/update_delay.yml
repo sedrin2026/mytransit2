@@ -2,7 +2,7 @@ name: Update Delay Data
 
 on:
   schedule:
-    # 30分おきに自動で実行する設定（テスト用）
+    # 5分おきに自動で実行する設定（テスト用）
     - cron: '*/30 * * * *'
   workflow_dispatch: # 手動でも動かせるようにするボタン
 
