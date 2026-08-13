@@ -400,18 +400,6 @@
     let currentMasterData = [];
     let currentSelectedValue = '';
     let timerInterval = null;
-    let liveDelayMinutes = 0; // 遅延分を保持する変数
-
-    // 遅延情報を読み込む関数（テスト用の delay.json を見に行く）
-    async function fetchDelayInfo() {
-        try {
-            const response = await fetch('./delay.json');
-            const data = await response.json();
-            liveDelayMinutes = data.delayMinutes || 0;
-        } catch (e) {
-            liveDelayMinutes = 0; // ファイルがない時などは遅延なしとして動かす
-        }
-    }
 
     function togglePanel(type) {
         const busPanel = document.getElementById('busPanel');
@@ -475,9 +463,6 @@
 
         document.getElementById('mapSection').classList.add('hidden');
         document.getElementById('candidatesSection').classList.add('active');
-
-        // 遅延情報を取得してから時刻表を表示
-        await fetchDelayInfo();
 
         const now = new Date();
         const dayOfWeek = now.getDay();
@@ -578,9 +563,8 @@
         let upcoming = currentMasterData.map(item => {
             let h = parseInt(item.hour, 10);
             let m = parseInt(item.minute, 10);
-            // 遅延分（liveDelayMinutes）を足して判定
-            let totalSec = h * 3600 + (m + liveDelayMinutes) * 60;
-            return { ...item, totalSec, h, m, isNextDay: false, delay: liveDelayMinutes };
+            let totalSec = h * 3600 + m * 60;
+            return { ...item, totalSec, h, m, isNextDay: false };
         }).filter(item => {
             return item.totalSec >= currentTotalSeconds;
         });
@@ -593,8 +577,8 @@
             let allSorted = [...currentMasterData].map(item => {
                 let h = parseInt(item.hour, 10);
                 let m = parseInt(item.minute, 10);
-                let totalSec = h * 3600 + (m + liveDelayMinutes) * 60;
-                return { ...item, totalSec, h, m, isNextDay: true, delay: liveDelayMinutes };
+                let totalSec = h * 3600 + m * 60;
+                return { ...item, totalSec, h, m, isNextDay: true };
             });
             allSorted.sort((a, b) => a.totalSec - b.totalSec);
 
@@ -615,7 +599,7 @@
             if (item.isNextDay) {
                 targetDate.setDate(targetDate.getDate() + 1);
             }
-            targetDate.setHours(item.h, item.m + item.delay, 0, 0);
+            targetDate.setHours(item.h, item.m, 0, 0);
 
             let diffSec = Math.floor((targetDate - now) / 1000);
             
@@ -635,19 +619,11 @@
                 timeLeftStr = `あと${d}日${h}時間`;
             }
 
-            // 遅延があるときはバッジを表示する
-            let delayBadge = item.delay > 0 ? `<span style="color: red; font-weight: bold; font-size: 0.75rem; background: #ffebee; padding: 2px 6px; border-radius: 4px; margin-left: 6px;">⚠️ ${item.delay}分遅れ</span>` : '';
-
-            // 表示上の時間も遅延分を足す（簡易表示用）
-            let displayMinute = item.m + item.delay;
-            let displayHour = item.h;
-            if (displayMinute >= 60) {
-                displayHour += Math.floor(displayMinute / 60);
-                displayMinute %= 60;
-            }
-            let timeFormatted = String(displayHour).padStart(2, '0') + ':' + String(displayMinute).padStart(2, '0');
+            let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
             
+            // 修正箇所: JSONの到着時刻を使用
             let arrivalFormatted = item.arrival || "--:--";
+
             let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
             
             html += `
@@ -656,7 +632,6 @@
                         <div>
                             <span class="candidate-badge rank-${index}">第${index + 1}候補</span>
                             ${nextDayBadge}
-                            ${delayBadge}
                         </div>
                         <span class="time-left-badge time-left-${index}">${timeLeftStr}</span>
                     </div>
