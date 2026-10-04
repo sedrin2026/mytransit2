@@ -1,0 +1,803 @@
+[
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "05:15",
+        "arrival": "05:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "05:30",
+        "arrival": "05:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "05:40",
+        "arrival": "05:41",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "05:50",
+        "arrival": "05:51",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "06:00",
+        "arrival": "06:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "06:12",
+        "arrival": "06:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "06:24",
+        "arrival": "06:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "06:36",
+        "arrival": "06:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "06:48",
+        "arrival": "06:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "07:00",
+        "arrival": "07:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "07:12",
+        "arrival": "07:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "07:24",
+        "arrival": "07:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "07:36",
+        "arrival": "07:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "07:48",
+        "arrival": "07:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "08:00",
+        "arrival": "08:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "08:12",
+        "arrival": "08:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "08:24",
+        "arrival": "08:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "08:36",
+        "arrival": "08:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "08:48",
+        "arrival": "08:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "09:00",
+        "arrival": "09:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "09:12",
+        "arrival": "09:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "09:24",
+        "arrival": "09:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "09:36",
+        "arrival": "09:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "09:48",
+        "arrival": "09:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "10:00",
+        "arrival": "10:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "10:12",
+        "arrival": "10:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "10:24",
+        "arrival": "10:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "10:36",
+        "arrival": "10:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "10:48",
+        "arrival": "10:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "11:00",
+        "arrival": "11:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "11:12",
+        "arrival": "11:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "11:24",
+        "arrival": "11:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "11:36",
+        "arrival": "11:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "11:48",
+        "arrival": "11:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "12:00",
+        "arrival": "12:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "12:12",
+        "arrival": "12:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "12:24",
+        "arrival": "12:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "12:36",
+        "arrival": "12:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "12:48",
+        "arrival": "12:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "13:00",
+        "arrival": "13:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "13:12",
+        "arrival": "13:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "13:24",
+        "arrival": "13:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "13:36",
+        "arrival": "13:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "13:48",
+        "arrival": "13:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "14:00",
+        "arrival": "14:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "14:12",
+        "arrival": "14:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "14:24",
+        "arrival": "14:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "14:36",
+        "arrival": "14:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "14:48",
+        "arrival": "14:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "15:00",
+        "arrival": "15:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "15:12",
+        "arrival": "15:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "15:24",
+        "arrival": "15:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "15:36",
+        "arrival": "15:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "15:48",
+        "arrival": "15:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "16:00",
+        "arrival": "16:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "16:12",
+        "arrival": "16:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "16:24",
+        "arrival": "16:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "16:36",
+        "arrival": "16:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "16:48",
+        "arrival": "16:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "17:00",
+        "arrival": "17:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "17:12",
+        "arrival": "17:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "17:24",
+        "arrival": "17:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "17:36",
+        "arrival": "17:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "17:48",
+        "arrival": "17:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "18:00",
+        "arrival": "18:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "18:12",
+        "arrival": "18:13",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "18:24",
+        "arrival": "18:25",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "18:36",
+        "arrival": "18:37",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "18:48",
+        "arrival": "18:49",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "19:00",
+        "arrival": "19:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "19:15",
+        "arrival": "19:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "19:30",
+        "arrival": "19:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "19:45",
+        "arrival": "19:46",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "20:00",
+        "arrival": "20:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "20:15",
+        "arrival": "20:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "20:30",
+        "arrival": "20:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "20:45",
+        "arrival": "20:46",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "21:00",
+        "arrival": "21:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "21:15",
+        "arrival": "21:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "21:30",
+        "arrival": "21:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "21:45",
+        "arrival": "21:46",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "22:00",
+        "arrival": "22:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "22:15",
+        "arrival": "22:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "22:30",
+        "arrival": "22:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "22:45",
+        "arrival": "22:46",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "23:00",
+        "arrival": "23:01",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "23:15",
+        "arrival": "23:16",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "23:30",
+        "arrival": "23:31",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    },
+    {
+        "root": "地下鉄",
+        "type": "土日祝",
+        "departure": "23:47",
+        "arrival": "23:48",
+        "from": "橋本駅",
+        "to": "博多方面",
+        "destination": "博多方面"
+    }
+]
