@@ -1,0 +1,191 @@
+[
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "10:09",
+    "arrival": "10:14",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "10:14",
+    "arrival": "10:19",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "10:41",
+    "arrival": "10:46",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "10:56",
+    "arrival": "11:01",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "11:17",
+    "arrival": "11:22",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "11:46",
+    "arrival": "11:51",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "14:10",
+    "arrival": "14:15",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "15:11",
+    "arrival": "15:16",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "16:17",
+    "arrival": "16:22",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "17:14",
+    "arrival": "17:19",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "17:25",
+    "arrival": "17:30",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "17:40",
+    "arrival": "17:45",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "18:24",
+    "arrival": "18:29",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "18:41",
+    "arrival": "18:46",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "19:09",
+    "arrival": "19:14",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "19:29",
+    "arrival": "19:34",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "19:49",
+    "arrival": "19:54",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "20:08",
+    "arrival": "20:13",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "21:47",
+    "arrival": "21:52",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "22:07",
+    "arrival": "22:12",
+    "destination": "三軒屋",
+    "route": "2"
+  },
+  {
+    "root": "藤崎バスターミナル",
+    "from": "藤崎バスターミナル",
+    "to": "三軒屋",
+    "departure": "23:07",
+    "arrival": "23:12",
+    "destination": "三軒屋",
+    "route": "2"
+  }
+]
