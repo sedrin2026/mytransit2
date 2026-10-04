@@ -1,0 +1,398 @@
+[
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "08:02",
+    "arrival": "08:07",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "08:07",
+    "arrival": "08:12",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "08:22",
+    "arrival": "08:27",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "08:38",
+    "arrival": "08:43",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "09:00",
+    "arrival": "09:05",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "09:08",
+    "arrival": "09:13",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "09:29",
+    "arrival": "09:34",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "09:56",
+    "arrival": "10:01",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "10:09",
+    "arrival": "10:14",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "10:29",
+    "arrival": "10:34",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "10:46",
+    "arrival": "10:51",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "11:27",
+    "arrival": "11:32",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "11:44",
+    "arrival": "11:49",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "12:06",
+    "arrival": "12:11",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "12:14",
+    "arrival": "12:19",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "12:35",
+    "arrival": "12:40",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "13:00",
+    "arrival": "13:05",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "13:32",
+    "arrival": "13:37",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "13:49",
+    "arrival": "13:54",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "14:17",
+    "arrival": "14:22",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "14:42",
+    "arrival": "14:47",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "15:03",
+    "arrival": "15:08",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "15:22",
+    "arrival": "15:27",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "15:27",
+    "arrival": "15:32",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "15:32",
+    "arrival": "15:37",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "15:41",
+    "arrival": "15:46",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:04",
+    "arrival": "16:09",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:16",
+    "arrival": "16:21",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:19",
+    "arrival": "16:24",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:34",
+    "arrival": "16:39",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:38",
+    "arrival": "16:43",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:45",
+    "arrival": "16:50",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:52",
+    "arrival": "16:57",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "16:57",
+    "arrival": "17:02",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "17:21",
+    "arrival": "17:26",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "17:42",
+    "arrival": "17:47",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "17:57",
+    "arrival": "18:02",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "18:43",
+    "arrival": "18:48",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "18:51",
+    "arrival": "18:56",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "19:07",
+    "arrival": "19:12",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "19:35",
+    "arrival": "19:40",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "20:07",
+    "arrival": "20:12",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "20:35",
+    "arrival": "20:40",
+    "destination": "藤崎",
+    "route": "2"
+  },
+  {
+    "root": "三軒屋",
+    "from": "三軒屋",
+    "to": "藤崎",
+    "departure": "21:29",
+    "arrival": "21:34",
+    "destination": "藤崎",
+    "route": "2"
+  }
+]
