@@ -161,12 +161,44 @@
             flex-direction: column;
             gap: 8px;
         }
+
         .calendar-panel.active { display: flex; }
-        .calendar-header { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 0.9rem; padding: 0 4px; }
-        .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center; font-size: 0.8rem; }
-        .calendar-day-name { font-weight: bold; color: #666; padding: 4px 0; }
-        .calendar-date { padding: 8px 0; border-radius: 6px; background-color: #f7f9fa; cursor: pointer; }
-        .calendar-date.today { background-color: #54a0ff; color: #fff; font-weight: bold; }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 0 4px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        .calendar-day-name {
+            font-weight: bold;
+            color: #666;
+            padding: 4px 0;
+        }
+
+        .calendar-date {
+            padding: 8px 0;
+            border-radius: 6px;
+            background-color: #f7f9fa;
+            cursor: pointer;
+        }
+
+        .calendar-date.today {
+            background-color: #54a0ff;
+            color: #fff;
+            font-weight: bold;
+        }
 
         /* 路線図エリア */
         .map-section {
@@ -174,7 +206,9 @@
             flex-direction: column;
             gap: 8px;
         }
+
         .map-section.hidden { display: none; }
+
         .map-card {
             background-color: #fff;
             border-radius: 12px;
@@ -186,16 +220,28 @@
             text-decoration: none;
             color: inherit;
         }
+
         .map-card.bus { border: 2px solid #ffcc5c; }
         .map-card.subway { border: 2px solid #a3cb38; }
-        .map-title { font-size: 0.85rem; font-weight: bold; text-align: center; color: #333; }
+
+        .map-title {
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
         
         .map-card.bus .map-img {
             max-height: 180px;
             object-fit: contain;
         }
 
-        .map-img { width: 100%; height: auto; border-radius: 8px; display: block; }
+        .map-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
 
         /* 検索結果エリア */
         .candidates-section {
@@ -203,6 +249,7 @@
             flex-direction: column;
             gap: 8px;
         }
+
         .candidates-section.active { display: flex; }
 
         .candidate-card {
@@ -241,6 +288,7 @@
             padding: 3px 10px;
             border-radius: 12px;
         }
+
         .time-left-0 { background-color: #fadbd8; color: #c0392b; }
         .time-left-1 { background-color: #d4efdf; color: #196f3d; }
         .time-left-2 { background-color: #d6eaf8; color: #2471a3; }
@@ -257,6 +305,7 @@
             font-size: 1.2rem;
             line-height: 1;
         }
+
         .dot-0 { color: #e74c3c; }
         .dot-1 { color: #2ecc71; }
         .dot-2 { color: #3498db; }
@@ -302,9 +351,11 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
+
     <header>
         <img src="header-banner.png" alt="HEADER BANNER" class="header-banner">
     </header>
@@ -316,31 +367,43 @@
 
     <!-- バスパネル -->
     <div class="expand-panel" id="busPanel">
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_sangen_to_jirou" onchange="loadTimetable(this)"> 三軒屋 → 次郎丸
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_jirou_to_sangen" onchange="loadTimetable(this)"> 次郎丸 → 三軒屋
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_nagao_to_fukudaimae" onchange="loadTimetable(this)"> 長尾5丁目 → 福大前
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_fukudaimae_to_nagao" onchange="loadTimetable(this)"> 福大前 → 長尾5丁目
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_haraoukan_to_jirou" onchange="loadTimetable(this)"> 原往還 → 田村三丁目
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="bus_haraoukan_to_taguma" onchange="loadTimetable(this)"> 原往還 → 田隈新町
         </label>
+
+        <!-- 今回変更：表示文字のみ変更 -->
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="bus_sangenya_to_fujisaki" onchange="loadTimetable(this)"> 三軒屋 → 藤崎バスターミナル
+            <input type="radio" name="transitSelect" value="bus_sangenya_to_fujisaki" onchange="loadTimetable(this)"> 三軒屋 → 藤崎バスセンター
         </label>
+
+        <!-- 今回変更：表示文字のみ変更 -->
         <label class="radio-label">
-            <input type="radio" name="transitSelect" value="bus_fujisaki_to_sangenya" onchange="loadTimetable(this)"> 藤崎バスターミナル → 三軒屋
+            <input type="radio" name="transitSelect" value="bus_fujisaki_to_sangenya" onchange="loadTimetable(this)"> 藤崎バス → 三軒屋
         </label>
+
     </div>
+
     <div class="result-banner" id="busResultBanner">
         <span id="busResultText"></span>
         <button class="close-btn" onclick="clearSelection()">×</button>
@@ -348,16 +411,21 @@
 
     <!-- 地下鉄パネル -->
     <div class="expand-panel" id="subwayPanel">
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="subway_hashimoto_to_jirou" onchange="loadTimetable(this)"> 橋本駅 → 次郎丸駅
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="subway_jirou_to_hashimoto" onchange="loadTimetable(this)"> 次郎丸駅 → 橋本駅
         </label>
+
         <label class="radio-label">
             <input type="radio" name="transitSelect" value="subway_jirou_to_hakata" onchange="loadTimetable(this)"> 次郎丸駅 → 博多駅
         </label>
+
     </div>
+
     <div class="result-banner" id="subwayResultBanner">
         <span id="subwayResultText"></span>
         <button class="close-btn" onclick="clearSelection()">×</button>
@@ -368,8 +436,13 @@
 
     <!-- カレンダー -->
     <div class="calendar-panel" id="calendarPanel">
-        <div class="calendar-header"><span>2026年 8月</span></div>
+
+        <div class="calendar-header">
+            <span>2026年 8月</span>
+        </div>
+
         <div class="calendar-grid">
+
             <div class="calendar-day-name" style="color: #ff6b81;">日</div>
             <div class="calendar-day-name">月</div>
             <div class="calendar-day-name">火</div>
@@ -377,88 +450,165 @@
             <div class="calendar-day-name">木</div>
             <div class="calendar-day-name">金</div>
             <div class="calendar-day-name" style="color: #1e90ff;">土</div>
-            <div class="calendar-date" style="color: #ccc;">26</div><div class="calendar-date" style="color: #ccc;">27</div><div class="calendar-date" style="color: #ccc;">28</div><div class="calendar-date" style="color: #ccc;">29</div><div class="calendar-date" style="color: #ccc;">30</div><div class="calendar-date" style="color: #ccc;">31</div><div class="calendar-date">1</div>
-            <div class="calendar-date">2</div><div class="calendar-date">3</div><div class="calendar-date">4</div><div class="calendar-date">5</div><div class="calendar-date">6</div><div class="calendar-date">7</div><div class="calendar-date">8</div>
-            <div class="calendar-date today">9</div><div class="calendar-date">10</div><div class="calendar-date">11</div><div class="calendar-date">12</div><div class="calendar-date">13</div><div class="calendar-date">14</div><div class="calendar-date">15</div>
-            <div class="calendar-date">16</div><div class="calendar-date">17</div><div class="calendar-date">18</div><div class="calendar-date">19</div><div class="calendar-date">20</div><div class="calendar-date">21</div><div class="calendar-date">22</div>
-            <div class="calendar-date">23</div><div class="calendar-date">24</div><div class="calendar-date">25</div><div class="calendar-date">26</div><div class="calendar-date">27</div><div class="calendar-date">28</div><div class="calendar-date">29</div>
-            <div class="calendar-date">30</div><div class="calendar-date">31</div><div class="calendar-date" style="color: #ccc;">1</div><div class="calendar-date" style="color: #ccc;">2</div><div class="calendar-date" style="color: #ccc;">3</div><div class="calendar-date" style="color: #ccc;">4</div><div class="calendar-date" style="color: #ccc;">5</div>
+
+            <div class="calendar-date" style="color: #ccc;">26</div>
+            <div class="calendar-date" style="color: #ccc;">27</div>
+            <div class="calendar-date" style="color: #ccc;">28</div>
+            <div class="calendar-date" style="color: #ccc;">29</div>
+            <div class="calendar-date" style="color: #ccc;">30</div>
+            <div class="calendar-date" style="color: #ccc;">31</div>
+            <div class="calendar-date">1</div>
+
+            <div class="calendar-date">2</div>
+            <div class="calendar-date">3</div>
+            <div class="calendar-date">4</div>
+            <div class="calendar-date">5</div>
+            <div class="calendar-date">6</div>
+            <div class="calendar-date">7</div>
+            <div class="calendar-date">8</div>
+
+            <div class="calendar-date today">9</div>
+            <div class="calendar-date">10</div>
+            <div class="calendar-date">11</div>
+            <div class="calendar-date">12</div>
+            <div class="calendar-date">13</div>
+            <div class="calendar-date">14</div>
+            <div class="calendar-date">15</div>
+
+            <div class="calendar-date">16</div>
+            <div class="calendar-date">17</div>
+            <div class="calendar-date">18</div>
+            <div class="calendar-date">19</div>
+            <div class="calendar-date">20</div>
+            <div class="calendar-date">21</div>
+            <div class="calendar-date">22</div>
+
+            <div class="calendar-date">23</div>
+            <div class="calendar-date">24</div>
+            <div class="calendar-date">25</div>
+            <div class="calendar-date">26</div>
+            <div class="calendar-date">27</div>
+            <div class="calendar-date">28</div>
+            <div class="calendar-date">29</div>
+
+            <div class="calendar-date">30</div>
+            <div class="calendar-date">31</div>
+            <div class="calendar-date" style="color: #ccc;">1</div>
+            <div class="calendar-date" style="color: #ccc;">2</div>
+            <div class="calendar-date" style="color: #ccc;">3</div>
+            <div class="calendar-date" style="color: #ccc;">4</div>
+            <div class="calendar-date" style="color: #ccc;">5</div>
+
         </div>
     </div>
 
     <!-- 路線図エリア -->
     <div class="map-section" id="mapSection">
+
         <a href="bus-map.png" target="_blank" class="map-card bus">
             <div class="map-title">🚍 西鉄バス路線図</div>
             <img src="bus-map.png" alt="バス路線図" class="map-img">
         </a>
+
         <a href="subway-map.png" target="_blank" class="map-card subway">
             <div class="map-title">🚇 福岡市地下鉄 路線図</div>
             <img src="subway-map.png" alt="地下鉄路線図" class="map-img">
         </a>
+
     </div>
 
     <!-- 検索結果エリア -->
     <div class="candidates-section" id="candidatesSection"></div>
+
 </div>
 
 <script>
+
     let currentMasterData = [];
     let currentSelectedValue = '';
     let timerInterval = null;
 
     function togglePanel(type) {
+
         const busPanel = document.getElementById('busPanel');
         const subwayPanel = document.getElementById('subwayPanel');
 
         if (type === 'bus') {
+
             const willActive = !busPanel.classList.contains('active');
+
             busPanel.classList.toggle('active', willActive);
             subwayPanel.classList.remove('active');
+
         } else if (type === 'subway') {
+
             const willActive = !subwayPanel.classList.contains('active');
+
             subwayPanel.classList.toggle('active', willActive);
             busPanel.classList.remove('active');
+
         }
     }
 
     function clearSelection() {
+
         document.querySelectorAll('input[name="transitSelect"]').forEach(el => el.checked = false);
+
         document.getElementById('busPanel').classList.remove('active');
         document.getElementById('subwayPanel').classList.remove('active');
+
         document.getElementById('busResultBanner').classList.remove('active');
         document.getElementById('subwayResultBanner').classList.remove('active');
+
         document.getElementById('candidatesSection').classList.remove('active');
+
         document.getElementById('mapSection').classList.remove('hidden');
+
         currentMasterData = [];
         currentSelectedValue = '';
+
         if (timerInterval) clearInterval(timerInterval);
     }
 
     function toggleCalendar() {
+
         const calendarPanel = document.getElementById('calendarPanel');
         const mapSection = document.getElementById('mapSection');
         const candidatesActive = document.getElementById('candidatesSection').classList.contains('active');
 
         calendarPanel.classList.toggle('active');
+
         if (!candidatesActive) {
             mapSection.classList.toggle('hidden');
         }
     }
 
     async function loadTimetable(radio) {
+
         const value = radio.value;
+
         currentSelectedValue = value;
+
         const isBus = value.startsWith('bus');
-        
+
         document.getElementById('busResultBanner').classList.toggle('active', isBus);
         document.getElementById('subwayResultBanner').classList.toggle('active', !isBus);
-        
+
         let labelText = radio.parentElement.textContent.trim();
+
         if (!isBus) {
-            if (value === 'subway_hashimoto_to_jirou') labelText = '橋本駅 → 次郎丸駅';
-            else if (value === 'subway_jirou_to_hashimoto') labelText = '次郎丸駅 → 橋本駅';
-            else if (value === 'subway_jirou_to_hakata') labelText = '次郎丸駅 → 博多駅';
+
+            if (value === 'subway_hashimoto_to_jirou') {
+                labelText = '橋本駅 → 次郎丸駅';
+            }
+
+            else if (value === 'subway_jirou_to_hashimoto') {
+                labelText = '次郎丸駅 → 橋本駅';
+            }
+
+            else if (value === 'subway_jirou_to_hakata') {
+                labelText = '次郎丸駅 → 博多駅';
+            }
         }
 
         if (isBus) {
@@ -468,223 +618,429 @@
         }
 
         document.getElementById('mapSection').classList.add('hidden');
+
         document.getElementById('candidatesSection').classList.add('active');
 
         const now = new Date();
+
         const dayOfWeek = now.getDay();
+
         let dayType = 'weekday';
+
         if (dayOfWeek === 6) dayType = 'saturday';
+
         if (dayOfWeek === 0) dayType = 'holiday';
 
         const jsonFileName = `./${value}_${dayType}.json`;
+
         const fallbackFileName = `./${value}_weekday.json`;
 
         try {
+
             let response = await fetch(jsonFileName);
+
             if (!response.ok) {
                 response = await fetch(fallbackFileName);
             }
+
             if (!response.ok) {
                 throw new Error(`HTTPエラー! ステータス: ${response.status}`);
             }
-            
+
             const data = await response.json();
+
             currentMasterData = parseTimetableData(data);
+
             updateCandidates();
-            
+
             if (timerInterval) clearInterval(timerInterval);
+
             timerInterval = setInterval(updateCandidates, 1000);
+
         } catch (error) {
+
             console.error("時刻表読み込みエラー:", error);
+
             document.getElementById('candidatesSection').innerHTML = `
                 <div class="candidate-card" style="text-align:center; color:red; padding:15px;">
                     <b>時刻表データの読み込みに失敗しました</b><br>
-                    <small style="color:#555; word-break:break-all; margin-top:5px; display:block;">対象ファイル: ${jsonFileName}</small>
-                    <small style="color:red; margin-top:3px; display:block;">${error.message}</small>
+                    <small style="color:#555; word-break:break-all; margin-top:5px; display:block;">
+                        対象ファイル: ${jsonFileName}
+                    </small>
+                    <small style="color:red; margin-top:3px; display:block;">
+                        ${error.message}
+                    </small>
                 </div>`;
         }
     }
 
     function parseTimetableData(jsonData) {
+
         let list = [];
+
         if (Array.isArray(jsonData)) {
+
             list = jsonData;
+
         } else if (jsonData.timetable && Array.isArray(jsonData.timetable)) {
+
             list = jsonData.timetable;
+
         } else {
+
             for (let hour in jsonData) {
+
                 if (hour === 'timetable') continue;
+
                 let minutes = jsonData[hour];
+
                 if (Array.isArray(minutes)) {
+
                     minutes.forEach(item => {
+
                         if (typeof item === 'object' && item !== null) {
-                            list.push({ 
-                                hour: hour, 
-                                minute: item.minute || item.time || '', 
-                                departure: item.departure, 
-                                destination: item.destination || '行先', 
+
+                            list.push({
+                                hour: hour,
+                                minute: item.minute || item.time || '',
+                                departure: item.departure,
+                                destination: item.destination || '行先',
                                 route: item.route || '1',
                                 arrival: item.arrival || ''
                             });
+
                         } else {
-                            list.push({ hour: hour, minute: item, destination: '行先', route: '1', arrival: '' });
+
+                            list.push({
+                                hour: hour,
+                                minute: item,
+                                destination: '行先',
+                                route: '1',
+                                arrival: ''
+                            });
+
                         }
                     });
                 }
             }
         }
-        
+
         return list.map(item => {
-            let h = item.hour !== undefined ? String(item.hour).padStart(2, '0') : '';
+
+            let h = item.hour !== undefined
+                ? String(item.hour).padStart(2, '0')
+                : '';
+
             let m = '';
+
             let dest = item.destination || item.dest || '各方面';
+
             let rt = item.route || item.bus_no || '1';
+
             let arr = item.arrival || '';
 
             if (item.departure !== undefined) {
+
                 const parts = String(item.departure).split(':');
+
                 if (parts.length === 2) {
+
                     h = parts[0].padStart(2, '0');
                     m = parts[1].padStart(2, '0');
+
                 }
+
             } else if (item.minute !== undefined) {
+
                 m = String(item.minute).padStart(2, '0');
+
             } else if (item.time !== undefined) {
+
                 const parts = String(item.time).split(':');
+
                 if (parts.length === 2) {
+
                     h = parts[0].padStart(2, '0');
                     m = parts[1].padStart(2, '0');
+
                 }
             }
-            return { hour: h, minute: m, destination: dest, route: rt, arrival: arr };
+
+            return {
+                hour: h,
+                minute: m,
+                destination: dest,
+                route: rt,
+                arrival: arr
+            };
+
         }).filter(item => item.hour !== '' && item.minute !== '');
     }
 
     function updateCandidates() {
+
         if (!currentMasterData || currentMasterData.length === 0) return;
 
         const now = new Date();
-        const currentTotalSeconds = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+
+        const currentTotalSeconds =
+            now.getHours() * 3600 +
+            now.getMinutes() * 60 +
+            now.getSeconds();
 
         let upcoming = currentMasterData.map(item => {
+
             let h = parseInt(item.hour, 10);
             let m = parseInt(item.minute, 10);
-            let totalSec = h * 3600 + m * 60;
-            return { ...item, totalSec, h, m, isNextDay: false };
+
+            let totalSec =
+                h * 3600 +
+                m * 60;
+
+            return {
+                ...item,
+                totalSec,
+                h,
+                m,
+                isNextDay: false
+            };
+
         }).filter(item => {
+
             return item.totalSec >= currentTotalSeconds;
+
         });
 
         upcoming.sort((a, b) => a.totalSec - b.totalSec);
 
         let top5 = upcoming.slice(0, 5);
-        
+
         if (top5.length < 5) {
+
             let allSorted = [...currentMasterData].map(item => {
+
                 let h = parseInt(item.hour, 10);
                 let m = parseInt(item.minute, 10);
-                let totalSec = h * 3600 + m * 60;
-                return { ...item, totalSec, h, m, isNextDay: true };
+
+                let totalSec =
+                    h * 3600 +
+                    m * 60;
+
+                return {
+                    ...item,
+                    totalSec,
+                    h,
+                    m,
+                    isNextDay: true
+                };
+
             });
+
             allSorted.sort((a, b) => a.totalSec - b.totalSec);
 
             let needed = 5 - top5.length;
+
             let nextDayItems = allSorted.slice(0, needed);
+
             top5 = [...top5, ...nextDayItems];
         }
 
-        const container = document.getElementById('candidatesSection');
+        const container =
+            document.getElementById('candidatesSection');
+
         if (top5.length === 0) {
-            container.innerHTML = `<div class="candidate-card" style="text-align:center;">有効な運行便データがありません</div>`;
+
+            container.innerHTML =
+                `<div class="candidate-card" style="text-align:center;">
+                    有効な運行便データがありません
+                </div>`;
+
             return;
         }
 
         let html = '';
+
         top5.forEach((item, index) => {
+
             let targetDate = new Date(now);
+
             if (item.isNextDay) {
                 targetDate.setDate(targetDate.getDate() + 1);
             }
+
             targetDate.setHours(item.h, item.m, 0, 0);
 
-            let diffSec = Math.floor((targetDate - now) / 1000);
-            
+            let diffSec =
+                Math.floor((targetDate - now) / 1000);
+
             let timeLeftStr = '';
+
             if (diffSec < 60) {
+
                 timeLeftStr = `あと数秒`;
+
             } else if (diffSec < 3600) {
+
                 let m = Math.floor(diffSec / 60);
+
                 timeLeftStr = `あと${m}分`;
+
             } else if (diffSec < 86400) {
+
                 let h = Math.floor(diffSec / 3600);
-                let m = Math.floor((diffSec % 3600) / 60);
-                timeLeftStr = `あと${h}時間${m}分`;
+
+                let m =
+                    Math.floor((diffSec % 3600) / 60);
+
+                timeLeftStr =
+                    `あと${h}時間${m}分`;
+
             } else {
-                let d = Math.floor(diffSec / 86400);
-                let h = Math.floor((diffSec % 86400) / 3600);
-                timeLeftStr = `あと${d}日${h}時間`;
+
+                let d =
+                    Math.floor(diffSec / 86400);
+
+                let h =
+                    Math.floor((diffSec % 86400) / 3600);
+
+                timeLeftStr =
+                    `あと${d}日${h}時間`;
             }
 
-            let timeFormatted = String(item.h).padStart(2, '0') + ':' + String(item.m).padStart(2, '0');
-            
-            // 修正箇所: JSONの到着時刻を使用
-            let arrivalFormatted = item.arrival || "--:--";
+            let timeFormatted =
+                String(item.h).padStart(2, '0') +
+                ':' +
+                String(item.m).padStart(2, '0');
 
-            let nextDayBadge = item.isNextDay ? `<span class="next-day-notice">翌日</span>` : '';
-            
+            // JSONの到着時刻を使用
+            let arrivalFormatted =
+                item.arrival || "--:--";
+
+            let nextDayBadge =
+                item.isNextDay
+                    ? `<span class="next-day-notice">翌日</span>`
+                    : '';
+
             html += `
                 <div class="candidate-card">
+
                     <div class="candidate-header-row">
+
                         <div>
-                            <span class="candidate-badge rank-${index}">第${index + 1}候補</span>
+                            <span class="candidate-badge rank-${index}">
+                                第${index + 1}候補
+                            </span>
                             ${nextDayBadge}
                         </div>
-                        <span class="time-left-badge time-left-${index}">${timeLeftStr}</span>
+
+                        <span class="time-left-badge time-left-${index}">
+                            ${timeLeftStr}
+                        </span>
+
                     </div>
+
                     <div class="candidate-main-row">
-                        <span class="dot-marker dot-${index}">●</span>
-                        <span class="time-display">${timeFormatted}</span>
-                        <span class="arrival-display">→ ${arrivalFormatted} 到着</span>
+
+                        <span class="dot-marker dot-${index}">
+                            ●
+                        </span>
+
+                        <span class="time-display">
+                            ${timeFormatted}
+                        </span>
+
+                        <span class="arrival-display">
+                            → ${arrivalFormatted} 到着
+                        </span>
+
                     </div>
+
                     <div class="route-info">
-                        <span class="route-number-badge">${item.route}</span>
-                        <span>行先: ${item.destination}</span>
+
+                        <span class="route-number-badge">
+                            ${item.route}
+                        </span>
+
+                        <span>
+                            行先: ${item.destination}
+                        </span>
+
                     </div>
+
                 </div>
             `;
         });
+
         container.innerHTML = html;
     }
 
     function updateDateTime() {
-        const now = new Date();
-        const year = now.getFullYear();
-        const month = now.getMonth() + 1;
-        const date = now.getDate();
-        const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
-        const day = dayNames[now.getDay()];
-        const hours = String(now.getHours()).padStart(2, '0');
-        const minutes = String(now.getMinutes()).padStart(2, '0');
-        const seconds = String(now.getSeconds()).padStart(2, '0');
 
-        document.getElementById('datetimeBar').textContent = `${year}年${month}月${date}日(${day}) ${hours}:${minutes}:${seconds}`;
+        const now = new Date();
+
+        const year = now.getFullYear();
+
+        const month =
+            now.getMonth() + 1;
+
+        const date =
+            now.getDate();
+
+        const dayNames =
+            ['日', '月', '火', '水', '木', '金', '土'];
+
+        const day =
+            dayNames[now.getDay()];
+
+        const hours =
+            String(now.getHours()).padStart(2, '0');
+
+        const minutes =
+            String(now.getMinutes()).padStart(2, '0');
+
+        const seconds =
+            String(now.getSeconds()).padStart(2, '0');
+
+        document.getElementById('datetimeBar').textContent =
+            `${year}年${month}月${date}日(${day}) ${hours}:${minutes}:${seconds}`;
     }
 
     updateDateTime();
+
     setInterval(updateDateTime, 1000);
+
 </script>
+
 <script>
+
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-          .then((reg) => {
-            console.log('MY TRANSIT 2: ServiceWorker 登録成功:', reg.scope);
-          })
-          .catch((err) => {
-            console.log('MY TRANSIT 2: ServiceWorker 登録失敗:', err);
-          });
-      });
+
+        window.addEventListener('load', () => {
+
+            navigator.serviceWorker.register('./sw.js')
+
+                .then((reg) => {
+
+                    console.log(
+                        'MY TRANSIT 2: ServiceWorker 登録成功:',
+                        reg.scope
+                    );
+
+                })
+
+                .catch((err) => {
+
+                    console.log(
+                        'MY TRANSIT 2: ServiceWorker 登録失敗:',
+                        err
+                    );
+
+                });
+
+        });
     }
-  </script>
+
+</script>
+
 </body>
 </html>
